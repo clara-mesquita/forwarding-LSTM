@@ -1,0 +1,55 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='700' height='420'>
+<style>
+text { font-family: Arial, sans-serif; font-size: 12px; }
+</style>
+<text x='350.0' y='30' text-anchor='middle' font-size='16'>Average Rank per Model and Metric</text>
+<text x='110' y='94.0' text-anchor='end'>RMSE</text>
+<rect x='120.00' y='60.00' width='135.00' height='60.00' fill='rgb(42,211,143)'/>
+<text x='187.50' y='94.00' text-anchor='middle' fill='white'>1.63</text>
+<rect x='255.00' y='60.00' width='135.00' height='60.00' fill='rgb(42,191,143)'/>
+<text x='322.50' y='94.00' text-anchor='middle' fill='white'>1.93</text>
+<rect x='390.00' y='60.00' width='135.00' height='60.00' fill='rgb(42,200,143)'/>
+<text x='457.50' y='94.00' text-anchor='middle' fill='white'>1.80</text>
+<rect x='525.00' y='60.00' width='135.00' height='60.00' fill='rgb(42,165,143)'/>
+<text x='592.50' y='94.00' text-anchor='middle' fill='white'>2.31</text>
+<text x='110' y='154.0' text-anchor='end'>MAE</text>
+<rect x='120.00' y='120.00' width='135.00' height='60.00' fill='rgb(42,211,143)'/>
+<text x='187.50' y='154.00' text-anchor='middle' fill='white'>1.63</text>
+<rect x='255.00' y='120.00' width='135.00' height='60.00' fill='rgb(42,201,143)'/>
+<text x='322.50' y='154.00' text-anchor='middle' fill='white'>1.77</text>
+<rect x='390.00' y='120.00' width='135.00' height='60.00' fill='rgb(42,195,143)'/>
+<text x='457.50' y='154.00' text-anchor='middle' fill='white'>1.86</text>
+<rect x='525.00' y='120.00' width='135.00' height='60.00' fill='rgb(42,159,143)'/>
+<text x='592.50' y='154.00' text-anchor='middle' fill='white'>2.40</text>
+<text x='110' y='214.0' text-anchor='end'>NRMSE</text>
+<rect x='120.00' y='180.00' width='135.00' height='60.00' fill='rgb(42,211,143)'/>
+<text x='187.50' y='214.00' text-anchor='middle' fill='white'>1.63</text>
+<rect x='255.00' y='180.00' width='135.00' height='60.00' fill='rgb(42,191,143)'/>
+<text x='322.50' y='214.00' text-anchor='middle' fill='white'>1.93</text>
+<rect x='390.00' y='180.00' width='135.00' height='60.00' fill='rgb(42,200,143)'/>
+<text x='457.50' y='214.00' text-anchor='middle' fill='white'>1.80</text>
+<rect x='525.00' y='180.00' width='135.00' height='60.00' fill='rgb(42,165,143)'/>
+<text x='592.50' y='214.00' text-anchor='middle' fill='white'>2.31</text>
+<text x='110' y='274.0' text-anchor='end'>Execution_Time</text>
+<rect x='120.00' y='240.00' width='135.00' height='60.00' fill='rgb(42,210,143)'/>
+<text x='187.50' y='274.00' text-anchor='middle' fill='white'>1.65</text>
+<rect x='255.00' y='240.00' width='135.00' height='60.00' fill='rgb(42,179,143)'/>
+<text x='322.50' y='274.00' text-anchor='middle' fill='white'>2.10</text>
+<rect x='390.00' y='240.00' width='135.00' height='60.00' fill='rgb(42,213,143)'/>
+<text x='457.50' y='274.00' text-anchor='middle' fill='white'>1.60</text>
+<rect x='525.00' y='240.00' width='135.00' height='60.00' fill='rgb(42,166,143)'/>
+<text x='592.50' y='274.00' text-anchor='middle' fill='white'>2.30</text>
+<text x='110' y='334.0' text-anchor='end'>Fuzzy_Accuracy</text>
+<rect x='120.00' y='300.00' width='135.00' height='60.00' fill='rgb(42,255,143)'/>
+<text x='187.50' y='334.00' text-anchor='middle' fill='white'>1.00</text>
+<rect x='255.00' y='300.00' width='135.00' height='60.00' fill='rgb(42,163,143)'/>
+<text x='322.50' y='334.00' text-anchor='middle' fill='white'>2.33</text>
+<rect x='390.00' y='300.00' width='135.00' height='60.00' fill='rgb(42,232,143)'/>
+<text x='457.50' y='334.00' text-anchor='middle' fill='white'>1.33</text>
+<rect x='525.00' y='300.00' width='135.00' height='60.00' fill='rgb(42,95,143)'/>
+<text x='592.50' y='334.00' text-anchor='middle' fill='white'>3.33</text>
+<text x='187.50' y='400' text-anchor='middle'>Proposal</text>
+<text x='322.50' y='400' text-anchor='middle'>LSTM</text>
+<text x='457.50' y='400' text-anchor='middle'>GRU</text>
+<text x='592.50' y='400' text-anchor='middle'>SARIMA</text>
+</svg>
