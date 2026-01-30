@@ -1,0 +1,15 @@
+{
+  "selected_links": 5,
+  "missing_regions": [],
+  "cross_region_links": 3,
+  "cross_region_share": 0.6,
+  "min_cross_region_required": 8,
+  "threshold_used": -0.1,
+  "regions_present": [
+    "Centro-Oeste",
+    "Nordeste",
+    "Norte",
+    "Sudeste",
+    "Sul"
+  ]
+}

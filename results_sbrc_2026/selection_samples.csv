@@ -1,0 +1,6 @@
+Link,State_A,State_B,Region_A,Region_B,Cross_Region,NRMSE_Proposal,NRMSE_GRU,NRMSE_LSTM,NRMSE_SARIMA,Proposal_Advantage_vs_Best,Proposal_Advantage_vs_Mean,Proposal_Rank
+ce-sc,ce,sc,Nordeste,Sul,true,0.087070,0.028121,0.028025,0.027308,-0.059762,-0.059251,4
+ce-sp,ce,sp,Nordeste,Sudeste,true,0.092361,0.025365,0.025820,0.026979,-0.066997,-0.066307,4
+ma-pb,ma,pb,Nordeste,Nordeste,false,0.006096,0.007524,0.007646,0.007667,0.001428,0.001516,1
+ma-pi,ma,pi,Nordeste,Nordeste,false,0.141436,0.049059,0.048688,0.048963,-0.092748,-0.092533,4
+to-go,to,go,Norte,Centro-Oeste,true,0.100595,0.081652,0.081140,0.083019,-0.019454,-0.018658,4
