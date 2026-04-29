@@ -1,0 +1,618 @@
+{
+    "mt-ma_bbr_interval_0_LSTM": {
+        "RMSE": 38.64697814686343,
+        "MAE": 11.690340454216447,
+        "NRMSE": 0.04273248119160281,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 54.88283038139343
+    },
+    "rs-pi_bbr_interval_0_LSTM": {
+        "RMSE": 53.237849737422685,
+        "MAE": 15.053847285263485,
+        "NRMSE": 0.06195929747715896,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 57.388681173324585
+    },
+    "to-am_bbr_interval_0_LSTM": {
+        "RMSE": 80.19246471937794,
+        "MAE": 29.102328462116944,
+        "NRMSE": 0.08902256417188956,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 33.7297306060791
+    },
+    "ac-pi_bbr_interval_0_LSTM": {
+        "RMSE": 81.24077321130011,
+        "MAE": 52.688294857443935,
+        "NRMSE": 0.11883479377640555,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 21.509157180786133
+    },
+    "ce-sc_bbr_interval_0_LSTM": {
+        "RMSE": 25.169285557293428,
+        "MAE": 10.619204509135187,
+        "NRMSE": 0.027505528794225412,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 52.21496915817261
+    },
+    "pa-ce_bbr_interval_0_LSTM": {
+        "RMSE": 88.01362176996261,
+        "MAE": 33.52484555259992,
+        "NRMSE": 0.10172325893764342,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 26.9250271320343
+    },
+    "to-mt_bbr_interval_0_LSTM": {
+        "RMSE": 45.46841087461512,
+        "MAE": 19.566283966698727,
+        "NRMSE": 0.050130846333657234,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 59.6521635055542
+    },
+    "ma-es_bbr_interval_0_LSTM": {
+        "RMSE": 20.726039946834526,
+        "MAE": 10.679192520003895,
+        "NRMSE": 0.022676333337475842,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 47.57722020149231
+    },
+    "se-ms_bbr_interval_0_LSTM": {
+        "RMSE": 47.109670780803405,
+        "MAE": 23.01580220815157,
+        "NRMSE": 0.05191471535177772,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 19.33588933944702
+    },
+    "ce-ro_bbr_interval_0_LSTM": {
+        "RMSE": 43.92335388668615,
+        "MAE": 16.794372590135676,
+        "NRMSE": 0.04853926269550891,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 41.654911041259766
+    },
+    "ms-es_bbr_interval_0_LSTM": {
+        "RMSE": 42.56941334383219,
+        "MAE": 32.45227472880589,
+        "NRMSE": 0.04780788356565488,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 26.717965841293335
+    },
+    "ma-pa_bbr_interval_0_LSTM": {
+        "RMSE": 8.317722288502432,
+        "MAE": 5.604190948132891,
+        "NRMSE": 0.008573655940464815,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 52.43811011314392
+    },
+    "to-sc_bbr_interval_0_LSTM": {
+        "RMSE": 57.14895098479136,
+        "MAE": 18.095090694756088,
+        "NRMSE": 0.05983599877917629,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 27.301061868667603
+    },
+    "pi-ms_bbr_interval_0_LSTM": {
+        "RMSE": 33.29443781039022,
+        "MAE": 13.9634496922268,
+        "NRMSE": 0.036708811559101814,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 55.762858629226685
+    },
+    "ac-go_bbr_interval_0_LSTM": {
+        "RMSE": 80.30605698294791,
+        "MAE": 50.44836281484963,
+        "NRMSE": 0.11478180407802671,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 19.821343660354614
+    },
+    "ma-ba_bbr_interval_0_LSTM": {
+        "RMSE": 13.294045124871385,
+        "MAE": 7.837859911775186,
+        "NRMSE": 0.014477656741266574,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 51.355000734329224
+    },
+    "to-ma_bbr_interval_0_LSTM": {
+        "RMSE": 52.94060601249757,
+        "MAE": 20.94377617993551,
+        "NRMSE": 0.05576463433317687,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 51.66765284538269
+    },
+    "es-se_bbr_interval_0_LSTM": {
+        "RMSE": 39.70594864022509,
+        "MAE": 20.25803136072326,
+        "NRMSE": 0.04363722023808276,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 21.616111516952515
+    },
+    "go-es_bbr_interval_0_LSTM": {
+        "RMSE": 22.133141282445802,
+        "MAE": 14.327696113817767,
+        "NRMSE": 0.02432254871420918,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 39.65701913833618
+    },
+    "ro-pb_bbr_interval_0_LSTM": {
+        "RMSE": 105.5655834604762,
+        "MAE": 45.34461428198613,
+        "NRMSE": 0.1190213043628009,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 44.63936519622803
+    },
+    "pr-es_bbr_interval_0_LSTM": {
+        "RMSE": 22.683743863112014,
+        "MAE": 16.596179554567104,
+        "NRMSE": 0.024914757332403288,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 28.141844749450684
+    },
+    "am-pa_bbr_interval_0_LSTM": {
+        "RMSE": 66.0377955535424,
+        "MAE": 20.344460887290396,
+        "NRMSE": 0.07291198972391166,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 53.175907611846924
+    },
+    "go-to_bbr_interval_0_LSTM": {
+        "RMSE": 9.436331253010422,
+        "MAE": 6.259750870648596,
+        "NRMSE": 0.009758218986000659,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 60.57951092720032
+    },
+    "ms-am_bbr_interval_0_LSTM": {
+        "RMSE": 117.41581753829257,
+        "MAE": 56.69537525389486,
+        "NRMSE": 0.1343214702851869,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 41.509202003479004
+    },
+    "rs-ce_bbr_interval_0_LSTM": {
+        "RMSE": 29.029916053035507,
+        "MAE": 12.512676175710373,
+        "NRMSE": 0.0327553852986232,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 22.11883306503296
+    },
+    "ac-rs_bbr_interval_0_LSTM": {
+        "RMSE": 82.0618499964521,
+        "MAE": 57.20423307316804,
+        "NRMSE": 0.12139992771720683,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 41.64780521392822
+    },
+    "to-ap_bbr_interval_0_LSTM": {
+        "RMSE": 95.73913601461614,
+        "MAE": 52.37849558217929,
+        "NRMSE": 0.10663137826226843,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 20.88555669784546
+    },
+    "ma-sc_bbr_interval_0_LSTM": {
+        "RMSE": 68.13586504721684,
+        "MAE": 12.950326075882847,
+        "NRMSE": 0.07079175836552769,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 30.409478187561035
+    },
+    "ap-ac_bbr_interval_0_LSTM": {
+        "RMSE": 78.21647703209902,
+        "MAE": 56.83916397791161,
+        "NRMSE": 0.11467832830960605,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 21.16359782218933
+    },
+    "pa-mt_bbr_interval_0_LSTM": {
+        "RMSE": 12.282235313823518,
+        "MAE": 6.2953255473248095,
+        "NRMSE": 0.013675038620026137,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 43.682047843933105
+    },
+    "to-es_bbr_interval_0_LSTM": {
+        "RMSE": 52.70788410966951,
+        "MAE": 25.15582588259176,
+        "NRMSE": 0.05871652254554174,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 37.11128211021423
+    },
+    "es-pi_bbr_interval_0_LSTM": {
+        "RMSE": 28.91878343024264,
+        "MAE": 14.563130598700697,
+        "NRMSE": 0.03175144721510277,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 55.875866413116455
+    },
+    "go-sp_bbr_interval_0_LSTM": {
+        "RMSE": 8.461859389068943,
+        "MAE": 6.300780900292983,
+        "NRMSE": 0.008745152366209041,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 26.18743133544922
+    },
+    "pi-ce_bbr_interval_0_LSTM": {
+        "RMSE": 26.347567498634376,
+        "MAE": 8.080130439064007,
+        "NRMSE": 0.028703358159530144,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 22.89433455467224
+    },
+    "ms-ac_bbr_interval_0_LSTM": {
+        "RMSE": 55.56174325670033,
+        "MAE": 45.41648499452729,
+        "NRMSE": 0.0777183029740905,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 19.772626876831055
+    },
+    "se-ac_bbr_interval_0_LSTM": {
+        "RMSE": 67.41528265760266,
+        "MAE": 52.12804150398084,
+        "NRMSE": 0.09547176489462031,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 33.13629770278931
+    },
+    "ro-ba_bbr_interval_0_LSTM": {
+        "RMSE": 112.85111807402518,
+        "MAE": 43.474374933870074,
+        "NRMSE": 0.12813558797129698,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 57.24238204956055
+    },
+    "pr-ac_bbr_interval_0_LSTM": {
+        "RMSE": 58.3908844451497,
+        "MAE": 46.13872985519531,
+        "NRMSE": 0.08192958664934884,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 21.41154193878174
+    },
+    "se-ce_bbr_interval_0_LSTM": {
+        "RMSE": 95.23687857806884,
+        "MAE": 25.6790021368883,
+        "NRMSE": 0.10889986553937474,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 22.228148460388184
+    },
+    "rs-to_bbr_interval_0_LSTM": {
+        "RMSE": 10.277569832070313,
+        "MAE": 7.264918898908942,
+        "NRMSE": 0.011465880537981367,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 59.13520646095276
+    },
+    "mt-ro_bbr_interval_0_LSTM": {
+        "RMSE": 41.06131996932578,
+        "MAE": 15.052904916015624,
+        "NRMSE": 0.045612318081899514,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 32.48725771903992
+    },
+    "rs-es_bbr_interval_0_LSTM": {
+        "RMSE": 26.952148058080773,
+        "MAE": 14.190688807569162,
+        "NRMSE": 0.029615288797373997,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 46.63659715652466
+    },
+    "ms-to_bbr_interval_0_LSTM": {
+        "RMSE": 53.52563261013919,
+        "MAE": 29.076316782068123,
+        "NRMSE": 0.059606340009076254,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 38.65547513961792
+    },
+    "ac-mt_bbr_interval_0_LSTM": {
+        "RMSE": 66.02763679324394,
+        "MAE": 42.76619075830201,
+        "NRMSE": 0.0910624555606956,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 22.677998781204224
+    },
+    "ro-go_bbr_interval_0_LSTM": {
+        "RMSE": 54.47505010710962,
+        "MAE": 28.17131121878348,
+        "NRMSE": 0.060458069156475794,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 21.657694101333618
+    },
+    "ro-pa_bbr_interval_0_LSTM": {
+        "RMSE": 94.14894826971104,
+        "MAE": 25.658329682050535,
+        "NRMSE": 0.10459927277431741,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 43.34812951087952
+    },
+    "ac-pa_bbr_interval_0_LSTM": {
+        "RMSE": 102.45010762562771,
+        "MAE": 69.04994188702537,
+        "NRMSE": 0.14524876619266402,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 18.70126438140869
+    },
+    "es-ba_bbr_interval_0_LSTM": {
+        "RMSE": 36.66414090005705,
+        "MAE": 15.982383200124689,
+        "NRMSE": 0.04046268377365029,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 41.723466634750366
+    },
+    "ma-rs_bbr_interval_0_LSTM": {
+        "RMSE": 67.51868238752473,
+        "MAE": 15.119035162204097,
+        "NRMSE": 0.07462541037602316,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 22.83852458000183
+    },
+    "se-ma_bbr_interval_0_LSTM": {
+        "RMSE": 17.027684086887525,
+        "MAE": 5.572952225709411,
+        "NRMSE": 0.018205365173298405,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 41.05884575843811
+    },
+    "ce-sp_bbr_interval_0_LSTM": {
+        "RMSE": 23.222300898850424,
+        "MAE": 10.973463756958813,
+        "NRMSE": 0.0253391503629904,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 25.519389867782593
+    },
+    "ap-pi_bbr_interval_0_LSTM": {
+        "RMSE": 122.30107517968511,
+        "MAE": 74.54154577198643,
+        "NRMSE": 0.1410105370852302,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 19.404066801071167
+    },
+    "pi-ac_bbr_interval_0_LSTM": {
+        "RMSE": 54.68429598919418,
+        "MAE": 43.98099614611131,
+        "NRMSE": 0.07845242204979297,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 18.231199264526367
+    },
+    "am-ms_bbr_interval_0_LSTM": {
+        "RMSE": 110.2507095860592,
+        "MAE": 39.518913915181706,
+        "NRMSE": 0.12469506762765106,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 49.8945791721344
+    },
+    "ro-am_bbr_interval_0_LSTM": {
+        "RMSE": 107.3575528076269,
+        "MAE": 42.86753607711904,
+        "NRMSE": 0.12100431805282283,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 45.201329946517944
+    },
+    "ma-pi_bbr_interval_0_LSTM": {
+        "RMSE": 44.80964070408566,
+        "MAE": 17.63575430844787,
+        "NRMSE": 0.04924210102546876,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 47.25276851654053
+    },
+    "mt-ap_bbr_interval_0_LSTM": {
+        "RMSE": 91.99192833545995,
+        "MAE": 52.66671639055041,
+        "NRMSE": 0.1050592253058528,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 20.648653745651245
+    },
+    "ms-pr_bbr_interval_0_LSTM": {
+        "RMSE": 45.722613019429566,
+        "MAE": 28.253619222290038,
+        "NRMSE": 0.05090996355397968,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 61.70996403694153
+    },
+    "es-mt_bbr_interval_0_LSTM": {
+        "RMSE": 47.05180003999742,
+        "MAE": 20.46358947128628,
+        "NRMSE": 0.051926952940012934,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 50.336164236068726
+    },
+    "ba-mt_bbr_interval_0_LSTM": {
+        "RMSE": 60.77707027974667,
+        "MAE": 14.433988080252876,
+        "NRMSE": 0.06847352406261138,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 59.86646270751953
+    },
+    "to-ac_bbr_interval_0_LSTM": {
+        "RMSE": 55.47144067279424,
+        "MAE": 43.69692115677657,
+        "NRMSE": 0.07776924448330583,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 21.539756298065186
+    },
+    "rs-ms_bbr_interval_0_LSTM": {
+        "RMSE": 11.904280319037644,
+        "MAE": 8.236919977824723,
+        "NRMSE": 0.012997493304554464,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 37.626914739608765
+    },
+    "ba-ms_bbr_interval_0_LSTM": {
+        "RMSE": 58.07613212883721,
+        "MAE": 19.72404890755208,
+        "NRMSE": 0.06427661574524053,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 62.513930797576904
+    },
+    "ac-ms_bbr_interval_0_LSTM": {
+        "RMSE": 79.86845960693509,
+        "MAE": 55.98637996537686,
+        "NRMSE": 0.11002886090478346,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 23.485037565231323
+    },
+    "ba-ac_bbr_interval_0_LSTM": {
+        "RMSE": 66.59137937991356,
+        "MAE": 47.001752514158916,
+        "NRMSE": 0.09498614981219439,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 21.285829782485962
+    },
+    "pb-mt_bbr_interval_0_LSTM": {
+        "RMSE": 27.709656935379588,
+        "MAE": 11.31473418630616,
+        "NRMSE": 0.030944361992328275,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 30.931702375411987
+    },
+    "pr-ce_bbr_interval_0_LSTM": {
+        "RMSE": 17.306888349420078,
+        "MAE": 7.077239377542849,
+        "NRMSE": 0.018885038850368133,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 24.75117778778076
+    },
+    "ms-pb_bbr_interval_0_LSTM": {
+        "RMSE": 47.17950520603044,
+        "MAE": 30.148201668912012,
+        "NRMSE": 0.05270529267759939,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 31.469820737838745
+    },
+    "ro-ce_bbr_interval_0_LSTM": {
+        "RMSE": 59.812752908999585,
+        "MAE": 24.958472503427785,
+        "NRMSE": 0.06695916206935663,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 27.720844745635986
+    },
+    "ap-pa_bbr_interval_0_LSTM": {
+        "RMSE": 69.64358824240804,
+        "MAE": 22.91695374494485,
+        "NRMSE": 0.07737887987826438,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 50.62522292137146
+    },
+    "pi-ma_bbr_interval_0_LSTM": {
+        "RMSE": 55.67725205107782,
+        "MAE": 14.722403782684593,
+        "NRMSE": 0.06334628761491193,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 41.279350996017456
+    },
+    "ce-ba_bbr_interval_0_LSTM": {
+        "RMSE": 34.40148041233501,
+        "MAE": 11.470256700473549,
+        "NRMSE": 0.037607218027546706,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 54.30998921394348
+    },
+    "to-go_bbr_interval_0_LSTM": {
+        "RMSE": 77.39533523390024,
+        "MAE": 18.496567387944427,
+        "NRMSE": 0.0812940246351731,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 55.79949450492859
+    },
+    "sp-ce_bbr_interval_0_LSTM": {
+        "RMSE": 18.225814745465527,
+        "MAE": 7.8596171351461,
+        "NRMSE": 0.020416490134647938,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 37.25397849082947
+    },
+    "pa-am_bbr_interval_0_LSTM": {
+        "RMSE": 96.5079698501945,
+        "MAE": 28.553637206644485,
+        "NRMSE": 0.10998620089802949,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 33.018831729888916
+    },
+    "ro-pi_bbr_interval_0_LSTM": {
+        "RMSE": 51.744074675123706,
+        "MAE": 16.612576149609378,
+        "NRMSE": 0.05703680660032043,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 52.95365023612976
+    },
+    "mt-go_bbr_interval_0_LSTM": {
+        "RMSE": 51.74536816816273,
+        "MAE": 18.56837149528785,
+        "NRMSE": 0.05767131458463581,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 45.61339259147644
+    },
+    "es-sp_bbr_interval_0_LSTM": {
+        "RMSE": 47.11812407757842,
+        "MAE": 18.72034308319536,
+        "NRMSE": 0.05200342411875175,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 30.570005655288696
+    },
+    "ap-to_bbr_interval_0_LSTM": {
+        "RMSE": 73.80083212101096,
+        "MAE": 29.200735139918788,
+        "NRMSE": 0.08231353704741927,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 48.168434858322144
+    },
+    "ac-to_bbr_interval_0_LSTM": {
+        "RMSE": 77.7596499567054,
+        "MAE": 50.818728789540934,
+        "NRMSE": 0.11062187355737134,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 18.872070789337158
+    },
+    "es-pr_bbr_interval_0_LSTM": {
+        "RMSE": 23.16580121593589,
+        "MAE": 12.72881650712697,
+        "NRMSE": 0.025449868535226874,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 38.608829736709595
+    },
+    "es-ce_bbr_interval_0_LSTM": {
+        "RMSE": 26.43752853719893,
+        "MAE": 12.301834392797813,
+        "NRMSE": 0.02909870250313231,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 22.19861650466919
+    },
+    "am-pr_bbr_interval_0_LSTM": {
+        "RMSE": 101.70868998219808,
+        "MAE": 57.805004169099504,
+        "NRMSE": 0.11458661797331367,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 41.09087944030762
+    },
+    "rs-ac_bbr_interval_0_LSTM": {
+        "RMSE": 86.81847481427452,
+        "MAE": 65.51398806293174,
+        "NRMSE": 0.12243040961803989,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 59.421393394470215
+    },
+    "ce-pi_bbr_interval_0_LSTM": {
+        "RMSE": 22.33521077765006,
+        "MAE": 10.115487675718038,
+        "NRMSE": 0.024332850507840783,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 60.688682556152344
+    },
+    "ma-pb_bbr_interval_0_LSTM": {
+        "RMSE": 7.387900975554376,
+        "MAE": 6.064585013260222,
+        "NRMSE": 0.007615684250365521,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 36.36196303367615
+    },
+    "pr-pi_bbr_interval_0_LSTM": {
+        "RMSE": 33.089252695230655,
+        "MAE": 20.448340751217742,
+        "NRMSE": 0.03881987131816519,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 51.566171646118164
+    },
+    "sc-to_bbr_interval_0_LSTM": {
+        "RMSE": 46.11008968865382,
+        "MAE": 11.340950910504345,
+        "NRMSE": 0.048812150336220966,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 67.3732635974884
+    }
+}
