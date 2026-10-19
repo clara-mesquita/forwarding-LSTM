@@ -1,0 +1,20 @@
+{
+  "iTransformer": {
+    "url": "https://github.com/thuml/iTransformer.git",
+    "commit": "c2426e68ca13f74aaec08045c5c724d8ad328124",
+    "paths": ["model", "layers", "utils"],
+    "implementation": "Official author implementation"
+  },
+  "TimeBridge": {
+    "url": "https://github.com/Hank0626/TimeBridge.git",
+    "commit": "0f9a83fbc3e1260c9ddd527c522dff0ce4b9554b",
+    "paths": ["model", "layers", "utils"],
+    "implementation": "Official author implementation"
+  },
+  "PyPOTS": {
+    "url": "https://github.com/WenjieDu/PyPOTS.git",
+    "commit": "2271533587bab250163437ed39cfe13cefd8b80a",
+    "paths": ["pypots/nn/modules/timemixerpp", "pypots/nn/modules/revin", "pypots/nn/modules/transformer", "pypots/nn/modules/inception"],
+    "implementation": "TimeMixer++ community backbone; local adapter averages all scale heads (paper Eq. 3). Not the inaccessible author release."
+  }
+}

@@ -1,0 +1,6 @@
+torch>=2.6
+numpy>=2.1
+pandas>=2.2
+einops>=0.8
+matplotlib>=3.9
+reformer-pytorch==1.4.4
