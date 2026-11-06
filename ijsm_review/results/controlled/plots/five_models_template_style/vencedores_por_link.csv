@@ -1,0 +1,89 @@
+conjunto,contexto,link,metrica,melhores
+GEANT,3,Ankara → Poznań,RMSE,LSTM
+GEANT,3,Ankara → Poznań,MAE,Forwarding LSTM
+GEANT,3,Ankara → Poznań,SMAPE,Forwarding LSTM
+GEANT,3,Ankara → Poznań,Cohen_Kappa,"Forwarding LSTM, LSTM"
+GEANT,3,RedIRIS → Lisboa,RMSE,Forwarding LSTM
+GEANT,3,RedIRIS → Lisboa,MAE,Forwarding LSTM
+GEANT,3,RedIRIS → Lisboa,SMAPE,Forwarding LSTM
+GEANT,3,RedIRIS → Lisboa,Cohen_Kappa,Transformer
+GEANT,3,Lisboa → Ankara,RMSE,GRU
+GEANT,3,Lisboa → Ankara,MAE,Forwarding LSTM
+GEANT,3,Lisboa → Ankara,SMAPE,Forwarding LSTM
+GEANT,3,Lisboa → Ankara,Cohen_Kappa,Transformer
+GEANT,3,Poznań → Ankara,RMSE,GRU
+GEANT,3,Poznań → Ankara,MAE,GRU
+GEANT,3,Poznań → Ankara,SMAPE,GRU
+GEANT,3,Poznań → Ankara,Cohen_Kappa,GRU
+GEANT,3,Poznań → Anella,RMSE,Forwarding LSTM
+GEANT,3,Poznań → Anella,MAE,LSTM
+GEANT,3,Poznań → Anella,SMAPE,LSTM
+GEANT,3,Poznań → Anella,Cohen_Kappa,SARIMA
+GEANT,3,Viena → LUT,RMSE,SARIMA
+GEANT,3,Viena → LUT,MAE,SARIMA
+GEANT,3,Viena → LUT,SMAPE,SARIMA
+GEANT,3,Viena → LUT,Cohen_Kappa,SARIMA
+GEANT,28,Ankara → Poznań,RMSE,LSTM
+GEANT,28,Ankara → Poznań,MAE,Forwarding LSTM
+GEANT,28,Ankara → Poznań,SMAPE,Forwarding LSTM
+GEANT,28,Ankara → Poznań,Cohen_Kappa,"Forwarding LSTM, GRU"
+GEANT,28,RedIRIS → Lisboa,RMSE,Transformer
+GEANT,28,RedIRIS → Lisboa,MAE,Transformer
+GEANT,28,RedIRIS → Lisboa,SMAPE,Transformer
+GEANT,28,RedIRIS → Lisboa,Cohen_Kappa,Forwarding LSTM
+GEANT,28,Lisboa → Ankara,RMSE,GRU
+GEANT,28,Lisboa → Ankara,MAE,Forwarding LSTM
+GEANT,28,Lisboa → Ankara,SMAPE,Forwarding LSTM
+GEANT,28,Lisboa → Ankara,Cohen_Kappa,Transformer
+GEANT,28,Poznań → Ankara,RMSE,LSTM
+GEANT,28,Poznań → Ankara,MAE,Forwarding LSTM
+GEANT,28,Poznań → Ankara,SMAPE,Forwarding LSTM
+GEANT,28,Poznań → Ankara,Cohen_Kappa,GRU
+GEANT,28,Poznań → Anella,RMSE,LSTM
+GEANT,28,Poznań → Anella,MAE,LSTM
+GEANT,28,Poznań → Anella,SMAPE,LSTM
+GEANT,28,Poznań → Anella,Cohen_Kappa,SARIMA
+GEANT,28,Viena → LUT,RMSE,SARIMA
+GEANT,28,Viena → LUT,MAE,SARIMA
+GEANT,28,Viena → LUT,SMAPE,SARIMA
+GEANT,28,Viena → LUT,Cohen_Kappa,SARIMA
+RNP,3,AC → TO,RMSE,SARIMA
+RNP,3,AC → TO,MAE,SARIMA
+RNP,3,AC → TO,SMAPE,SARIMA
+RNP,3,AC → TO,Cohen_Kappa,SARIMA
+RNP,3,ES → CE,RMSE,SARIMA
+RNP,3,ES → CE,MAE,SARIMA
+RNP,3,ES → CE,SMAPE,SARIMA
+RNP,3,ES → CE,Cohen_Kappa,GRU
+RNP,3,GO → SP,RMSE,Forwarding LSTM
+RNP,3,GO → SP,MAE,Forwarding LSTM
+RNP,3,GO → SP,SMAPE,Forwarding LSTM
+RNP,3,GO → SP,Cohen_Kappa,Transformer
+RNP,3,MS → TO,RMSE,LSTM
+RNP,3,MS → TO,MAE,LSTM
+RNP,3,MS → TO,SMAPE,LSTM
+RNP,3,MS → TO,Cohen_Kappa,"Forwarding LSTM, LSTM, SARIMA, Transformer"
+RNP,3,SC → TO,RMSE,LSTM
+RNP,3,SC → TO,MAE,LSTM
+RNP,3,SC → TO,SMAPE,LSTM
+RNP,3,SC → TO,Cohen_Kappa,"Forwarding LSTM, GRU, LSTM, SARIMA, Transformer"
+RNP,28,AC → TO,RMSE,SARIMA
+RNP,28,AC → TO,MAE,SARIMA
+RNP,28,AC → TO,SMAPE,SARIMA
+RNP,28,AC → TO,Cohen_Kappa,SARIMA
+RNP,28,ES → CE,RMSE,LSTM
+RNP,28,ES → CE,MAE,LSTM
+RNP,28,ES → CE,SMAPE,LSTM
+RNP,28,ES → CE,Cohen_Kappa,"Forwarding LSTM, GRU, LSTM, SARIMA, Transformer"
+RNP,28,GO → SP,RMSE,GRU
+RNP,28,GO → SP,MAE,LSTM
+RNP,28,GO → SP,SMAPE,LSTM
+RNP,28,GO → SP,Cohen_Kappa,ND para todos
+RNP,28,MS → TO,RMSE,Forwarding LSTM
+RNP,28,MS → TO,MAE,Forwarding LSTM
+RNP,28,MS → TO,SMAPE,Forwarding LSTM
+RNP,28,MS → TO,Cohen_Kappa,"Forwarding LSTM, GRU, LSTM, SARIMA, Transformer"
+RNP,28,SC → TO,RMSE,Forwarding LSTM
+RNP,28,SC → TO,MAE,Forwarding LSTM
+RNP,28,SC → TO,SMAPE,Forwarding LSTM
+RNP,28,SC → TO,Cohen_Kappa,"Forwarding LSTM, GRU, LSTM, SARIMA, Transformer"

@@ -35,10 +35,10 @@ def linear_interpolation(df, limit_direction="both", method="linear"):
 
 
 def main():
-    protocols = ["cubic", "bbr"]
-    for protocol in protocols:
-        DATASET_DIR = "datasets/amostras/"
-        RESULTS_DIR = f"results2/{protocol}"
+    sources = ["rnp", "geant"]
+    for source in sources:
+        DATASET_DIR = f"datasets/data/{source}"
+        RESULTS_DIR = f"results2/{source}"
         MODEL_DIR = os.path.join(RESULTS_DIR, "models")
         METRICS_PATH = os.path.join(RESULTS_DIR, "evaluation_sarima.json")
         LOG_FILE = os.path.join(RESULTS_DIR, "experiments_sarima.log")
@@ -69,7 +69,7 @@ def main():
                 logging.info(f"Processing {dataset_name} with {model_name}...")
 
                 try:
-                    df = pd.read_csv(file_path, index_col="Timestamp")
+                    df = pd.read_csv(file_path, index_col="Data")
                     if "0" in df.columns:
                         df.drop("0", axis=1, inplace=True)
 

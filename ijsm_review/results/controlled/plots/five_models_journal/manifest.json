@@ -1,0 +1,95 @@
+{
+  "models": [
+    "SARIMA",
+    "GRU",
+    "LSTM",
+    "ForwardingLSTM",
+    "Transformer"
+  ],
+  "contexts": [
+    3,
+    28
+  ],
+  "datasets": {
+    "geant": 6,
+    "rnp": 5
+  },
+  "excluded_rnp_links": [
+    "es-pr_bbr_interval_0_6h"
+  ],
+  "canvas_inches_by_dataset": {
+    "geant": [
+      7.2,
+      7.4
+    ],
+    "rnp": [
+      7.2,
+      6.4
+    ]
+  },
+  "orientation": "horizontal bars, compact portrait canvas",
+  "size_inches": [
+    7.2,
+    7.4
+  ],
+  "fonts_pt": {
+    "axis_label": 13,
+    "link_label": 12,
+    "numeric_tick": 11,
+    "legend": 10.5
+  },
+  "cropped_to_artwork": true,
+  "png_dpi": 600,
+  "files": [
+    "geant_context_3_cohen_kappa.png",
+    "geant_context_3_cohen_kappa.pdf",
+    "geant_context_3_cohen_kappa.svg",
+    "geant_context_28_cohen_kappa.png",
+    "geant_context_28_cohen_kappa.pdf",
+    "geant_context_28_cohen_kappa.svg",
+    "geant_context_3_smape.png",
+    "geant_context_3_smape.pdf",
+    "geant_context_3_smape.svg",
+    "geant_context_28_smape.png",
+    "geant_context_28_smape.pdf",
+    "geant_context_28_smape.svg",
+    "geant_context_3_rmse.png",
+    "geant_context_3_rmse.pdf",
+    "geant_context_3_rmse.svg",
+    "geant_context_28_rmse.png",
+    "geant_context_28_rmse.pdf",
+    "geant_context_28_rmse.svg",
+    "geant_context_3_mae.png",
+    "geant_context_3_mae.pdf",
+    "geant_context_3_mae.svg",
+    "geant_context_28_mae.png",
+    "geant_context_28_mae.pdf",
+    "geant_context_28_mae.svg",
+    "rnp_context_3_cohen_kappa.png",
+    "rnp_context_3_cohen_kappa.pdf",
+    "rnp_context_3_cohen_kappa.svg",
+    "rnp_context_28_cohen_kappa.png",
+    "rnp_context_28_cohen_kappa.pdf",
+    "rnp_context_28_cohen_kappa.svg",
+    "rnp_context_3_smape.png",
+    "rnp_context_3_smape.pdf",
+    "rnp_context_3_smape.svg",
+    "rnp_context_28_smape.png",
+    "rnp_context_28_smape.pdf",
+    "rnp_context_28_smape.svg",
+    "rnp_context_3_rmse.png",
+    "rnp_context_3_rmse.pdf",
+    "rnp_context_3_rmse.svg",
+    "rnp_context_28_rmse.png",
+    "rnp_context_28_rmse.pdf",
+    "rnp_context_28_rmse.svg",
+    "rnp_context_3_mae.png",
+    "rnp_context_3_mae.pdf",
+    "rnp_context_3_mae.svg",
+    "rnp_context_28_mae.png",
+    "rnp_context_28_mae.pdf",
+    "rnp_context_28_mae.svg"
+  ],
+  "source": "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\results\\controlled\\plots\\five_models_single_plots_vertical\\metrics.csv",
+  "source_sha256": "c10d7fb29f4b6abb39eb10eb7b126abf6bf078e792c6cd3c1908075fd0e1ec25"
+}

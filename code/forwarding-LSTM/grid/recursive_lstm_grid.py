@@ -307,11 +307,11 @@ def main():
     LOOK_BACK = 3
     WINDOW_SIZE = 28
 
-    protocols = ["cubic", "bbr"]
+    sources = ["rnp", "geant"]
 
-    for protocol in protocols:
-        DATASET_DIR = f"datasets/treated/{protocol}"
-        RESULTS_DIR = f"results/{protocol}"
+    for source in sources:
+        DATASET_DIR = f"datasets/data/{source}"
+        RESULTS_DIR = f"results/{source}"
         MODEL_DIR = os.path.join(RESULTS_DIR, "models")
         METRICS_PATH = os.path.join(RESULTS_DIR, "evaluation.json")
         LOG_FILE = os.path.join(RESULTS_DIR, "experiments_recursive_lstm.log")
@@ -339,7 +339,7 @@ def main():
 
                 try:
                     # Data loading and preprocessing
-                    df = pd.read_csv(file_path, index_col="Timestamp")
+                    df = pd.read_csv(file_path, index_col="Data")
                     if "0" in df.columns:
                         df.drop("0", axis=1, inplace=True)
 

@@ -1,0 +1,9 @@
+# Grid experiments (code/forwarding-LSTM/grid/*.py)
+# Verified on Python 3.13 (ijsm_review/.venv-experiments)
+tensorflow==2.21.0
+statsmodels==0.15.0
+scikit-learn==1.9.1
+pandas==3.0.6
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2

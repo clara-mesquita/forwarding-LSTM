@@ -18,4 +18,7 @@ python code/forwarding-LSTM/grid/sarima.py
 echo "Running Recursive LSTM experiment..."
 python code/forwarding-LSTM/grid/recursive_lstm_grid.py
 
+echo "Running Transformer experiment..."
+python code/forwarding-LSTM/grid/transformer.py
+
 echo "All experiments finished successfully."

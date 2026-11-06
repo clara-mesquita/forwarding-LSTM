@@ -1,0 +1,44 @@
+{
+    "ac-to_bbr_interval_0_6h_GRU": {
+        "RMSE": 342.32539641962416,
+        "MAE": 262.5734391615246,
+        "NRMSE": 0.6983686855819076,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 21.94893193244934
+    },
+    "es-ce_bbr_interval_0_6h_GRU": {
+        "RMSE": 460.6425571097721,
+        "MAE": 288.6219450493039,
+        "NRMSE": 0.7338068683585495,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 31.979841709136963
+    },
+    "es-pr_bbr_interval_0_6h_GRU": {
+        "RMSE": 462.492306148298,
+        "MAE": 280.0045738373808,
+        "NRMSE": 0.7690243621478501,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 33.17980098724365
+    },
+    "go-sp_bbr_interval_0_6h_GRU": {
+        "RMSE": 558.3079950438502,
+        "MAE": 530.6891276129891,
+        "NRMSE": 0.7949445181371162,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 23.297159433364868
+    },
+    "ms-to_bbr_interval_0_6h_GRU": {
+        "RMSE": 457.3063601160911,
+        "MAE": 359.8413080864527,
+        "NRMSE": 0.8005530816388943,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 21.47669291496277
+    },
+    "sc-to_bbr_interval_0_6h_GRU": {
+        "RMSE": 519.0575343209495,
+        "MAE": 433.59585810092324,
+        "NRMSE": 0.9441508870704779,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 27.08353567123413
+    }
+}

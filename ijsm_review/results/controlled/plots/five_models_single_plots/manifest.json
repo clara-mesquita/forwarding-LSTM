@@ -1,0 +1,59 @@
+{
+  "models": [
+    "SARIMA",
+    "GRU",
+    "LSTM",
+    "ForwardingLSTM",
+    "Transformer"
+  ],
+  "datasets": {
+    "geant": 10,
+    "rnp": 6
+  },
+  "contexts": [
+    3,
+    28
+  ],
+  "metrics": [
+    "Cohen_Kappa",
+    "SMAPE",
+    "RMSE",
+    "MAE"
+  ],
+  "source": "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\results\\controlled\\plots\\metricas_selecionadas\\metricas_medias_todos_links.csv",
+  "source_sha256": "b99da0daa4d3471f5c0cde3d4f67cbb6ac3fe9fd219b4032ff998f1f2ecb20ad",
+  "files": [
+    "geant_context_3_cohen_kappa.png",
+    "geant_context_3_cohen_kappa.pdf",
+    "geant_context_28_cohen_kappa.png",
+    "geant_context_28_cohen_kappa.pdf",
+    "geant_context_3_smape.png",
+    "geant_context_3_smape.pdf",
+    "geant_context_28_smape.png",
+    "geant_context_28_smape.pdf",
+    "geant_context_3_rmse.png",
+    "geant_context_3_rmse.pdf",
+    "geant_context_28_rmse.png",
+    "geant_context_28_rmse.pdf",
+    "geant_context_3_mae.png",
+    "geant_context_3_mae.pdf",
+    "geant_context_28_mae.png",
+    "geant_context_28_mae.pdf",
+    "rnp_context_3_cohen_kappa.png",
+    "rnp_context_3_cohen_kappa.pdf",
+    "rnp_context_28_cohen_kappa.png",
+    "rnp_context_28_cohen_kappa.pdf",
+    "rnp_context_3_smape.png",
+    "rnp_context_3_smape.pdf",
+    "rnp_context_28_smape.png",
+    "rnp_context_28_smape.pdf",
+    "rnp_context_3_rmse.png",
+    "rnp_context_3_rmse.pdf",
+    "rnp_context_28_rmse.png",
+    "rnp_context_28_rmse.pdf",
+    "rnp_context_3_mae.png",
+    "rnp_context_3_mae.pdf",
+    "rnp_context_28_mae.png",
+    "rnp_context_28_mae.pdf"
+  ]
+}

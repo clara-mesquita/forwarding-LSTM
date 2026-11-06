@@ -1,0 +1,11 @@
+link,retained,criterion
+esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,True,Todos os links; sem filtro de desempenho
+esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,True,Todos os links; sem filtro de desempenho
+esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,True,Todos os links; sem filtro de desempenho
+esmond data psmall.lut.ac.uk to psmp-gn-bw-vie-at.geant.org 10-24-2023_6h,True,Todos os links; sem filtro de desempenho
+esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,True,Todos os links; sem filtro de desempenho
+esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar.restena.lu 10-24-2023_6h,True,Todos os links; sem filtro de desempenho
+esmond data psmp-gn-bw-poz-pl.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,True,Todos os links; sem filtro de desempenho
+esmond data psmp-gn-bw-poz-pl.geant.org to pspmp-anella.csuc.cat 10-24-2023_6h,True,Todos os links; sem filtro de desempenho
+esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h,True,Todos os links; sem filtro de desempenho
+esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,True,Todos os links; sem filtro de desempenho
