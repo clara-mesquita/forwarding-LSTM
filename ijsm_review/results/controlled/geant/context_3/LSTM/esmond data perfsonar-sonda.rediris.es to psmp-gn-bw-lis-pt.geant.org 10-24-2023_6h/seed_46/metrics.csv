@@ -1,0 +1,2 @@
+observed_test_intervals,RMSE,MAE,Fuzzy_Accuracy,fuzzy_evaluated_intervals,NRMSE_mean,SMAPE,dataset,link,model,context,seed
+32,834.2603653290442,827.6649400995234,0.0,4,0.39947501028570315,49.414511641124676,geant,esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,LSTM,3,46

@@ -1,0 +1,45 @@
+{
+  "fingerprint": "02856eb702894693bf524654100f1ccc5a3b83cc5a0988825ede171cfd48c8c1",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar.restena.lu 10-24-2023_6h",
+  "context": 28,
+  "model": "Persistence",
+  "seed": 42,
+  "chosen": {
+    "config": {},
+    "selection_cutoff": 152,
+    "validation_mse_mbps": 4123.872655334293,
+    "seconds": 0.0001309998333454132
+  },
+  "candidates": [
+    {
+      "config": {},
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 4123.872655334293,
+      "seconds": 0.0001309998333454132
+    }
+  ],
+  "selection_seconds": 0.0007022996433079243,
+  "training_seconds": 1.900363713502884e-06,
+  "inference_seconds": 0.00017509981989860535,
+  "lower": 607.649467,
+  "scale": 320.3411975,
+  "training_targets": 103,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

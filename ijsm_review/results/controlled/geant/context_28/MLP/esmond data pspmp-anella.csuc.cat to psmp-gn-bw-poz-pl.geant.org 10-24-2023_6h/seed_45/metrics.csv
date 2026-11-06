@@ -1,0 +1,2 @@
+observed_test_intervals,RMSE,MAE,Fuzzy_Accuracy,fuzzy_evaluated_intervals,NRMSE_mean,SMAPE,dataset,link,model,context,seed
+29,93.59163869128786,71.1831789542136,0.8275862068965517,29,0.11088856974161293,8.727942057094305,geant,esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,MLP,28,45

@@ -1,0 +1,2 @@
+observed_test_intervals,RMSE,MAE,Fuzzy_Accuracy,fuzzy_evaluated_intervals,NRMSE_mean,SMAPE,dataset,link,model,context,seed
+26,48.40230341083345,42.211763137063876,0.9134615384615384,26,0.40733459781189857,32.64751711562505,geant,esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h,Transformer,28,45

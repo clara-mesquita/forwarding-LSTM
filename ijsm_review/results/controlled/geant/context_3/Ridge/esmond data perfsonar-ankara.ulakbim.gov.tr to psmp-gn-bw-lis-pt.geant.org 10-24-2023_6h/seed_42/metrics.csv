@@ -1,0 +1,2 @@
+observed_test_intervals,RMSE,MAE,Fuzzy_Accuracy,fuzzy_evaluated_intervals,NRMSE_mean,SMAPE,dataset,link,model,context,seed
+26,64.69880429596259,51.28378904084577,0.9038461538461539,26,0.0843721004571559,6.723188553912056,geant,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,Ridge,3,42

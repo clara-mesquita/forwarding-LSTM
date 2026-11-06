@@ -1,0 +1,45 @@
+{
+  "fingerprint": "8733a46daa6257054c7bc79455c90666934b12f27154ba62e37407ce78353503",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h",
+  "context": 3,
+  "model": "Persistence",
+  "seed": 42,
+  "chosen": {
+    "config": {},
+    "selection_cutoff": 152,
+    "validation_mse_mbps": 6738.189766989565,
+    "seconds": 0.00026659993454813957
+  },
+  "candidates": [
+    {
+      "config": {},
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 6738.189766989565,
+      "seconds": 0.00026659993454813957
+    }
+  ],
+  "selection_seconds": 0.0012740003876388073,
+  "training_seconds": 2.800021320581436e-06,
+  "inference_seconds": 0.000174699816852808,
+  "lower": 166.986427,
+  "scale": 704.72427425,
+  "training_targets": 120,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

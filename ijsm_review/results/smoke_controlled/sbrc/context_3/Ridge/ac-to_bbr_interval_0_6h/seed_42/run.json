@@ -1,0 +1,68 @@
+{
+  "fingerprint": "f1cd04c0e5e7387ffebda72de3acde161ae9b920baceedcb6375042c04e2f993",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "sbrc",
+  "link": "ac-to_bbr_interval_0_6h",
+  "context": 3,
+  "model": "Ridge",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "alpha": 100.0
+    },
+    "validation_mse_mbps": 664.8858541350393,
+    "seconds": 0.009866900276392698
+  },
+  "candidates": [
+    {
+      "config": {
+        "alpha": 0.1
+      },
+      "validation_mse_mbps": 688.8199441915489,
+      "seconds": 0.027116999961435795
+    },
+    {
+      "config": {
+        "alpha": 1.0
+      },
+      "validation_mse_mbps": 681.0206983201513,
+      "seconds": 0.009168100077658892
+    },
+    {
+      "config": {
+        "alpha": 10.0
+      },
+      "validation_mse_mbps": 665.1063806490115,
+      "seconds": 0.01906249998137355
+    },
+    {
+      "config": {
+        "alpha": 100.0
+      },
+      "validation_mse_mbps": 664.8858541350393,
+      "seconds": 0.009866900276392698
+    }
+  ],
+  "selection_seconds": 0.06641079997643828,
+  "training_seconds": 0.0004926002584397793,
+  "inference_seconds": 0.011543100234121084,
+  "lower": 722.464587,
+  "scale": 212.4458679999999,
+  "training_targets": 339,
+  "selection_training_end": "2024-05-19 12:00:00",
+  "validation_start": "2024-05-19 18:00:00",
+  "outer_training_end": "2024-06-20 00:00:00",
+  "test_start": "2024-06-20 06:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

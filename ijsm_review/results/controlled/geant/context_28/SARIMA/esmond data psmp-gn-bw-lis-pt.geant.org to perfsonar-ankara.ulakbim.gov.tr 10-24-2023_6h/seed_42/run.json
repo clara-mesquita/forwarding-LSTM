@@ -1,0 +1,235 @@
+{
+  "fingerprint": "b4dbbb4d460b792a0d84e31b9718af00dee37099d40b86f51f7d189546cc23d8",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h",
+  "context": 28,
+  "model": "SARIMA",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        28
+      ]
+    },
+    "selection_cutoff": 152,
+    "warnings": [],
+    "converged": true,
+    "validation_mse_mbps": 1048.1614068484816,
+    "seconds": 0.7702625999227166
+  },
+  "candidates": [
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          4
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 11685.012438557816,
+      "seconds": 0.19318250007927418
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          12
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      ],
+      "converged": false,
+      "error": "SARIMAX optimizer did not converge",
+      "seconds": 0.3152263998053968
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          28
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 10648.06426519221,
+      "seconds": 0.5377501999028027
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          4
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 6618.313326038378,
+      "seconds": 0.2180468002334237
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          12
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 7210.456886515429,
+      "seconds": 0.19815799966454506
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          28
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 6154.948856370721,
+      "seconds": 0.4298926000483334
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          4
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 1361.11410851872,
+      "seconds": 0.36618389980867505
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          12
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 4245.814527238868,
+      "seconds": 0.41686469968408346
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          28
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 1048.1614068484816,
+      "seconds": 0.7702625999227166
+    }
+  ],
+  "selection_seconds": 3.4465427002869546,
+  "training_seconds": 1.5854536998085678,
+  "inference_seconds": 0.09809189988300204,
+  "lower": 422.547057,
+  "scale": 507.01561300000003,
+  "training_targets": 105,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": "all past training data, not limited to lag context",
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

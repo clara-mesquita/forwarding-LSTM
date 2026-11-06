@@ -1,0 +1,113 @@
+{
+  "fingerprint": "6a7cc5dd6c51d45cdc81102fb96e1ff07fe33d0956a5a63662a3a4a1df654e13",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data psmp-gn-bw-poz-pl.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h",
+  "context": 28,
+  "model": "ARIMA",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "selection_cutoff": 152,
+    "warnings": [],
+    "converged": true,
+    "validation_mse_mbps": 300.3832983797639,
+    "seconds": 0.10791150014847517
+  },
+  "candidates": [
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 1446.1571738711204,
+      "seconds": 0.11600479995831847
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 504.3958937180376,
+      "seconds": 0.06467489991337061
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_cutoff": 152,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 300.3832983797639,
+      "seconds": 0.10791150014847517
+    }
+  ],
+  "selection_seconds": 0.28961530001834035,
+  "training_seconds": 0.10745889972895384,
+  "inference_seconds": 0.06909060012549162,
+  "lower": 232.785257,
+  "scale": 694.682116,
+  "training_targets": 105,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": "all past training data, not limited to lag context",
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

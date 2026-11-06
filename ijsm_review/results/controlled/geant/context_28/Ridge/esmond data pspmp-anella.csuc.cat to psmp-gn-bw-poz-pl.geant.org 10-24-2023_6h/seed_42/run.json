@@ -1,0 +1,73 @@
+{
+  "fingerprint": "a1d0a87599d69a3a7258a6df21541edafdde7bf4f4faf8b0fe40e9669437ad48",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h",
+  "context": 28,
+  "model": "Ridge",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "alpha": 100.0
+    },
+    "selection_cutoff": 152,
+    "validation_mse_mbps": 8294.412189406916,
+    "seconds": 0.004456399939954281
+  },
+  "candidates": [
+    {
+      "config": {
+        "alpha": 0.1
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 11258.660594386223,
+      "seconds": 0.0049137999303638935
+    },
+    {
+      "config": {
+        "alpha": 1.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 9246.38052439043,
+      "seconds": 0.004503199830651283
+    },
+    {
+      "config": {
+        "alpha": 10.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 8627.208996047302,
+      "seconds": 0.004440600052475929
+    },
+    {
+      "config": {
+        "alpha": 100.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 8294.412189406916,
+      "seconds": 0.004456399939954281
+    }
+  ],
+  "selection_seconds": 0.019137300085276365,
+  "training_seconds": 0.0007956000044941902,
+  "inference_seconds": 0.004778299946337938,
+  "lower": 371.625799,
+  "scale": 566.851926,
+  "training_targets": 89,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "fingerprint": "007c7eba6d8769208d35c8b5bed6a267e0ef25b9a9fa3be9af87bec5752c03b5",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data psmp-gn-bw-poz-pl.geant.org to pspmp-anella.csuc.cat 10-24-2023_6h",
+  "context": 3,
+  "model": "Transformer",
+  "seed": 45,
+  "chosen": {
+    "config": {
+      "layers": 1,
+      "learning_rate": 0.001,
+      "batch_size": 32
+    },
+    "selection_cutoff": 152,
+    "selected_epochs": 4,
+    "validation_loss": [
+      0.16229601204395294,
+      0.21732954680919647,
+      0.1580297201871872,
+      0.0776997059583664,
+      0.07888776063919067,
+      0.10617341101169586,
+      0.10842401534318924,
+      0.09041933715343475,
+      0.08957275003194809,
+      0.10095728933811188,
+      0.09222815185785294,
+      0.08859793841838837,
+      0.10186641663312912,
+      0.1043146550655365
+    ],
+    "validation_mse_mbps": 4240.264391251705,
+    "seconds": 0.18380249990150332
+  },
+  "candidates": [
+    {
+      "config": {
+        "layers": 1,
+        "learning_rate": 0.001,
+        "batch_size": 32
+      },
+      "selection_cutoff": 152,
+      "selected_epochs": 4,
+      "validation_loss": [
+        0.16229601204395294,
+        0.21732954680919647,
+        0.1580297201871872,
+        0.0776997059583664,
+        0.07888776063919067,
+        0.10617341101169586,
+        0.10842401534318924,
+        0.09041933715343475,
+        0.08957275003194809,
+        0.10095728933811188,
+        0.09222815185785294,
+        0.08859793841838837,
+        0.10186641663312912,
+        0.1043146550655365
+      ],
+      "validation_mse_mbps": 4240.264391251705,
+      "seconds": 0.18380249990150332
+    },
+    {
+      "config": {
+        "layers": 2,
+        "learning_rate": 0.001,
+        "batch_size": 32
+      },
+      "selection_cutoff": 152,
+      "selected_epochs": 3,
+      "validation_loss": [
+        0.14761872589588165,
+        0.1712571680545807,
+        0.08662194013595581,
+        0.08949990570545197,
+        0.14537163078784943,
+        0.09360872209072113,
+        0.08967100828886032,
+        0.1180800348520279,
+        0.10336698591709137,
+        0.0892205759882927,
+        0.09964706003665924,
+        0.1083575189113617,
+        0.09558507055044174
+      ],
+      "validation_mse_mbps": 4599.818867236997,
+      "seconds": 0.19258869998157024
+    }
+  ],
+  "selection_seconds": 0.37715560011565685,
+  "training_seconds": 0.03697049990296364,
+  "inference_seconds": 0.008023800328373909,
+  "lower": 670.303028,
+  "scale": 258.2147339999999,
+  "training_targets": 139,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

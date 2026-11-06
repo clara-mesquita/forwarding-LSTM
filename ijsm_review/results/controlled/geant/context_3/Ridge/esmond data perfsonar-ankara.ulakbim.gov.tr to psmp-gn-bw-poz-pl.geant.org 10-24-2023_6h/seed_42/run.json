@@ -1,0 +1,73 @@
+{
+  "fingerprint": "a5ee1e32559d6de9e0a56b82f3b9882e0582af7e000533e2bce0f35f6b1feac5",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h",
+  "context": 3,
+  "model": "Ridge",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "alpha": 1.0
+    },
+    "selection_cutoff": 152,
+    "validation_mse_mbps": 3559.585130785208,
+    "seconds": 0.002887700218707323
+  },
+  "candidates": [
+    {
+      "config": {
+        "alpha": 0.1
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 3758.361539205736,
+      "seconds": 0.002718099858611822
+    },
+    {
+      "config": {
+        "alpha": 1.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 3559.585130785208,
+      "seconds": 0.002887700218707323
+    },
+    {
+      "config": {
+        "alpha": 10.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 3565.207505257529,
+      "seconds": 0.0022452999837696552
+    },
+    {
+      "config": {
+        "alpha": 100.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 3651.815939736226,
+      "seconds": 0.002146800048649311
+    }
+  ],
+  "selection_seconds": 0.01076509989798069,
+  "training_seconds": 0.0005600000731647015,
+  "inference_seconds": 0.002861699555069208,
+  "lower": 202.580706,
+  "scale": 726.022162,
+  "training_targets": 118,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

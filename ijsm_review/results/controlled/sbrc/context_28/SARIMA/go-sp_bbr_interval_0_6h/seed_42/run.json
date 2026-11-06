@@ -1,0 +1,242 @@
+{
+  "fingerprint": "2b9e6240fd8c2e6c2c021756d35fed4a872331a4042691db09e6c859381c61b0",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "sbrc",
+  "link": "go-sp_bbr_interval_0_6h",
+  "context": 28,
+  "model": "SARIMA",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        12
+      ]
+    },
+    "selection_cutoff": 500,
+    "warnings": [],
+    "converged": true,
+    "validation_mse_mbps": 48.56133842786629,
+    "seconds": 0.3940719999372959
+  },
+  "candidates": [
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          4
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 119.70738614780001,
+      "seconds": 0.34054849995300174
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          12
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 163.85797405444643,
+      "seconds": 0.43161880038678646
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          28
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 159.43750588399374,
+      "seconds": 0.9712547999806702
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          4
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 50.63000601733579,
+      "seconds": 0.25569599959999323
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          12
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 48.56133842786629,
+      "seconds": 0.3940719999372959
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          28
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [
+        "Non-stationary starting seasonal autoregressive Using zeros as starting parameters."
+      ],
+      "converged": true,
+      "validation_mse_mbps": 50.28335519065775,
+      "seconds": 0.6553902998566628
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          4
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [
+        "Non-stationary starting autoregressive parameters found. Using zeros as starting parameters."
+      ],
+      "converged": true,
+      "validation_mse_mbps": 115.01700510944913,
+      "seconds": 0.3011854002252221
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          12
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [
+        "Non-stationary starting autoregressive parameters found. Using zeros as starting parameters."
+      ],
+      "converged": true,
+      "validation_mse_mbps": 103.75746523957552,
+      "seconds": 0.8800770998932421
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          28
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [
+        "Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.",
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      ],
+      "converged": false,
+      "error": "SARIMAX optimizer did not converge",
+      "seconds": 2.0610957997851074
+    }
+  ],
+  "selection_seconds": 6.293687500059605,
+  "training_seconds": 0.18258399982005358,
+  "inference_seconds": 0.22321430034935474,
+  "lower": 261.358378,
+  "scale": 729.0757169999999,
+  "training_targets": 272,
+  "selection_training_end": "2024-05-19 12:00:00",
+  "validation_start": "2024-05-19 18:00:00",
+  "outer_training_end": "2024-06-20 00:00:00",
+  "test_start": "2024-06-20 06:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": "all past training data, not limited to lag context",
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "epochs": 500,
+    "batch_size": 32,
+    "fitted_epochs": 5
+  },
+  "metrics": {
+    "observed_test_intervals": 30,
+    "RMSE": 15.896489662554055,
+    "MAE": 10.597668437129114,
+    "Fuzzy_Accuracy": 0.9916666666666667,
+    "fuzzy_evaluated_intervals": 30,
+    "NRMSE_mean": 0.016898325279893683,
+    "SMAPE": 1.1304560545172577
+  },
+  "source": "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\sbrc_final_results\\choosen_treated_datasets_6h\\sc-to_bbr_interval_0_6h.csv",
+  "source_sha256": "7f8883dc421a2db0703744194b56d01a1fcf8367f7c98c1d2d43861d9affb582",
+  "shared_intervals": 783,
+  "test_start": "2024-06-20 06:00:00",
+  "look_back": 3,
+  "window_size": 28,
+  "scaler_min": [
+    751.884089
+  ],
+  "scaler_max": [
+    969.98775
+  ],
+  "units": "Mbit/s"
+}

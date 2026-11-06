@@ -1,0 +1,24 @@
+{
+  "geant": {
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\data\\geant\\esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h.csv": "29d971c8795442ab2dd2c066c5add507e87577f339d08fb55aace6aeb2672739",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\data\\geant\\esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h.csv": "68673a48698f7410c0cec0e0c4299d91da3b8b8301fab790cd93aa50303c43f5",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\data\\geant\\esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h.csv": "b4c682a0b2c8f087164a2774fce94bec7d2bc4c19f7aeddf26392fc9534b900e",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\data\\geant\\esmond data psmall.lut.ac.uk to psmp-gn-bw-vie-at.geant.org 10-24-2023_6h.csv": "ba4e20b478438801f512924e617c20ecd8435f17d9fc2d1e9b249ad402cf4860",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\data\\geant\\esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h.csv": "de40fef26748ff8a4f63a7ca631e72c009b2e26c7dbae31564add3f504d459c5",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\data\\geant\\esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar.restena.lu 10-24-2023_6h.csv": "d8a6ab1499be7b1f62d6d2ac8d23c9ee6cfabc4e2692d9b081bebded399fd2a6",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\data\\geant\\esmond data psmp-gn-bw-poz-pl.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h.csv": "9da8b96c3d85c408864fab497fc50708358e630687ef2c59e2ed8747000e3014",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\data\\geant\\esmond data psmp-gn-bw-poz-pl.geant.org to pspmp-anella.csuc.cat 10-24-2023_6h.csv": "a8a7da6161db3dabc1b57adef52bd0daead286767668fbff4bfcf035e64d285e",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\data\\geant\\esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h.csv": "79c30e39b9b37e260df5100b9bbbfc4cc7ef84cef81d608dd1af2e0e8beacc12",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\ijsm_review\\data\\geant\\esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h.csv": "3510d1449f3420f69d2a9307e485a40f0c3bcaf714618d18e46d1d625bded281"
+  },
+  "sbrc": {
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\sbrc_final_results\\choosen_treated_datasets_6h\\ac-to_bbr_interval_0_6h.csv": "e434320cd030705bb0c4152815f50dd7d576a0dac0ca21d996ced3c9f3093905",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\sbrc_final_results\\choosen_treated_datasets_6h\\es-ce_bbr_interval_0_6h.csv": "e34a7a1501efe9a2216d09b6827938e57e099d2a6124bb349ad506d614b30e2c",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\sbrc_final_results\\choosen_treated_datasets_6h\\es-pr_bbr_interval_0_6h.csv": "a13199729a45540d0e2da104ba5a8f55d37e77bd0f06209503c3bb3bf5121a8c",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\sbrc_final_results\\choosen_treated_datasets_6h\\go-sp_bbr_interval_0_6h.csv": "0124fe3147962854d60a59b774f8ec3c00e2f8801ba0808e270b78687392c827",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\sbrc_final_results\\choosen_treated_datasets_6h\\ms-to_bbr_interval_0_6h.csv": "3b287d3d1cba04ca94fdf0dea99fb85815493afeb3a0e629489f9a49998b9991",
+    "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\sbrc_final_results\\choosen_treated_datasets_6h\\sc-to_bbr_interval_0_6h.csv": "7f8883dc421a2db0703744194b56d01a1fcf8367f7c98c1d2d43861d9affb582"
+  },
+  "git_revision": "b5446aa30549cf4f19103103f3f9a2cb0ff599bd",
+  "python": "3.13.16 (main, Oct 14 2026, 01:05:56) [MSC v.1944 64 bit (AMD64)]"
+}

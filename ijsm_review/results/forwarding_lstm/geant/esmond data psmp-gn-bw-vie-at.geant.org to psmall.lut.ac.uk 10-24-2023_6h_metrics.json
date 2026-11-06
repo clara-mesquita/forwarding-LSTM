@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "epochs": 300,
+    "batch_size": 128,
+    "fitted_epochs": 8
+  },
+  "metrics": {
+    "observed_test_intervals": 26,
+    "RMSE": 36.58517439824725,
+    "MAE": 30.730812567199425,
+    "Fuzzy_Accuracy": 0.9134615384615384,
+    "fuzzy_evaluated_intervals": 26,
+    "NRMSE_mean": 0.3078863246010879,
+    "SMAPE": 25.050858037623243
+  },
+  "source": "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\sbrc_final_results\\geant\\esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h.csv",
+  "source_sha256": "eb85e8db8153f63cdd9ceb5286af481605a6850d5c079897cf5ec206f50ae3dc",
+  "shared_intervals": 238,
+  "test_start": "2023-10-11 18:00:00",
+  "look_back": 3,
+  "window_size": 28,
+  "scaler_min": [
+    87.41876
+  ],
+  "scaler_max": [
+    326.029638
+  ],
+  "units": "Mbit/s"
+}

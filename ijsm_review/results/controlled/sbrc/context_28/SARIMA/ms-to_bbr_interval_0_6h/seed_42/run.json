@@ -1,0 +1,233 @@
+{
+  "fingerprint": "23e9d6ce4455f4968abe6346674acb32ad3915bbb34422c65581fe3f07d57276",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "sbrc",
+  "link": "ms-to_bbr_interval_0_6h",
+  "context": 28,
+  "model": "SARIMA",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        0,
+        0,
+        28
+      ]
+    },
+    "selection_cutoff": 500,
+    "warnings": [],
+    "converged": true,
+    "validation_mse_mbps": 668.4131358961085,
+    "seconds": 1.3893542001023889
+  },
+  "candidates": [
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          4
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 1257.0335668451426,
+      "seconds": 0.3591721998527646
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          12
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 1255.6487012502405,
+      "seconds": 0.6044514998793602
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          28
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 1219.8906959726855,
+      "seconds": 1.0311541999690235
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          4
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 962.5075920813606,
+      "seconds": 0.29845579992979765
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          12
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 953.1295993031115,
+      "seconds": 0.3299910998903215
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          28
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 938.9700612008453,
+      "seconds": 0.6594291999936104
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          4
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 671.4592963785874,
+      "seconds": 0.4729937999509275
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          12
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 672.4667702757648,
+      "seconds": 0.678776300046593
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          1,
+          0,
+          0,
+          28
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 668.4131358961085,
+      "seconds": 1.3893542001023889
+    }
+  ],
+  "selection_seconds": 5.827764899935573,
+  "training_seconds": 1.7326067998073995,
+  "inference_seconds": 0.2885457002557814,
+  "lower": 666.634158,
+  "scale": 269.7474400000001,
+  "training_targets": 325,
+  "selection_training_end": "2024-05-19 12:00:00",
+  "validation_start": "2024-05-19 18:00:00",
+  "outer_training_end": "2024-06-20 00:00:00",
+  "test_start": "2024-06-20 06:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": "all past training data, not limited to lag context",
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

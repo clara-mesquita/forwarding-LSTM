@@ -1,0 +1,73 @@
+{
+  "fingerprint": "730c76b90f684fb194e8d38b6f7099e4046dc763fbfa5282e57d3da85c599b2a",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h",
+  "context": 28,
+  "model": "Ridge",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "alpha": 10.0
+    },
+    "selection_cutoff": 152,
+    "validation_mse_mbps": 2500.4622342348375,
+    "seconds": 0.002319999970495701
+  },
+  "candidates": [
+    {
+      "config": {
+        "alpha": 0.1
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 20877.201256820605,
+      "seconds": 0.007532199844717979
+    },
+    {
+      "config": {
+        "alpha": 1.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 4560.149189683614,
+      "seconds": 0.0024549998342990875
+    },
+    {
+      "config": {
+        "alpha": 10.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 2500.4622342348375,
+      "seconds": 0.002319999970495701
+    },
+    {
+      "config": {
+        "alpha": 100.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 2838.43397332641,
+      "seconds": 0.0021148002706468105
+    }
+  ],
+  "selection_seconds": 0.014936099760234356,
+  "training_seconds": 0.000529400072991848,
+  "inference_seconds": 0.002221700269728899,
+  "lower": 166.986427,
+  "scale": 704.72427425,
+  "training_targets": 100,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

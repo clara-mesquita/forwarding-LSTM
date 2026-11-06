@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "epochs": 500,
+    "batch_size": 32,
+    "fitted_epochs": 489
+  },
+  "metrics": {
+    "observed_test_intervals": 32,
+    "RMSE": 302.6674086668247,
+    "MAE": 140.8383585792508,
+    "Fuzzy_Accuracy": null,
+    "fuzzy_evaluated_intervals": 0,
+    "NRMSE_mean": 0.14492845545004293,
+    "SMAPE": 7.950780804717789
+  },
+  "source": "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\sbrc_final_results\\geant\\esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h.csv",
+  "source_sha256": "9023abe4a1f2a6a1c897d588928423f8a754aa946705384f5a50c29408323f80",
+  "shared_intervals": 238,
+  "test_start": "2023-10-11 18:00:00",
+  "look_back": 3,
+  "window_size": 28,
+  "scaler_min": [
+    673.185993
+  ],
+  "scaler_max": [
+    2323.6468085
+  ],
+  "units": "Mbit/s"
+}

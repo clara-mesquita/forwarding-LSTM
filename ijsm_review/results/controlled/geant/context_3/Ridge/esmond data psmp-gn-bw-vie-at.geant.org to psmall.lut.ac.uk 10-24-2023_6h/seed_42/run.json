@@ -1,0 +1,73 @@
+{
+  "fingerprint": "af8c2e6889f870ab170478a0eb6eb10d75e0ee5031b20dd43d6538289efdb8a9",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h",
+  "context": 3,
+  "model": "Ridge",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "alpha": 100.0
+    },
+    "selection_cutoff": 152,
+    "validation_mse_mbps": 2425.369950551996,
+    "seconds": 0.0026929001323878765
+  },
+  "candidates": [
+    {
+      "config": {
+        "alpha": 0.1
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 2438.596231869936,
+      "seconds": 0.003976700361818075
+    },
+    {
+      "config": {
+        "alpha": 1.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 2434.1401762699606,
+      "seconds": 0.0024974001571536064
+    },
+    {
+      "config": {
+        "alpha": 10.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 2427.2178537686227,
+      "seconds": 0.002494999673217535
+    },
+    {
+      "config": {
+        "alpha": 100.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 2425.369950551996,
+      "seconds": 0.0026929001323878765
+    }
+  ],
+  "selection_seconds": 0.012212799862027168,
+  "training_seconds": 0.0005435999482870102,
+  "inference_seconds": 0.004614400211721659,
+  "lower": 87.41876,
+  "scale": 238.61087799999996,
+  "training_targets": 132,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

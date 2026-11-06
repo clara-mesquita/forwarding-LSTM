@@ -1,0 +1,29 @@
+{
+  "parameters": {
+    "epochs": 100,
+    "batch_size": 128,
+    "fitted_epochs": 16
+  },
+  "metrics": {
+    "observed_test_intervals": 30,
+    "RMSE": 95.58751824646023,
+    "MAE": 59.58253140332701,
+    "Fuzzy_Accuracy": 0.8916666666666667,
+    "fuzzy_evaluated_intervals": 30,
+    "NRMSE_mean": 0.10926465858197948,
+    "SMAPE": 7.424102621426811
+  },
+  "source": "C:\\Users\\Clara\\Documents\\Research\\Projects\\forwarding-LSTM\\sbrc_final_results\\geant\\esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h.csv",
+  "source_sha256": "9529425e5e00078fcc309d796799433dffee3e1154c496ad8cbd8ad2232aa569",
+  "shared_intervals": 238,
+  "test_start": "2023-10-11 18:00:00",
+  "look_back": 3,
+  "window_size": 28,
+  "scaler_min": [
+    422.547057
+  ],
+  "scaler_max": [
+    929.56267
+  ],
+  "units": "Mbit/s"
+}

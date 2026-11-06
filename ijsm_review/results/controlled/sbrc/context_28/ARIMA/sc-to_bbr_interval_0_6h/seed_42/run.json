@@ -1,0 +1,117 @@
+{
+  "fingerprint": "c1f5390ec6409b751a43e958e321de981575c3d062eb26e4eac73554db8fb11c",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "sbrc",
+  "link": "sc-to_bbr_interval_0_6h",
+  "context": 28,
+  "model": "ARIMA",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "selection_cutoff": 500,
+    "warnings": [
+      "Non-stationary starting autoregressive parameters found. Using zeros as starting parameters."
+    ],
+    "converged": true,
+    "validation_mse_mbps": 121.7079907992471,
+    "seconds": 0.33041789988055825
+  },
+  "candidates": [
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 202.7815421917909,
+      "seconds": 0.26000319980084896
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 162.9467993398588,
+      "seconds": 0.23694270011037588
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_cutoff": 500,
+      "warnings": [
+        "Non-stationary starting autoregressive parameters found. Using zeros as starting parameters."
+      ],
+      "converged": true,
+      "validation_mse_mbps": 121.7079907992471,
+      "seconds": 0.33041789988055825
+    }
+  ],
+  "selection_seconds": 0.8286196999251842,
+  "training_seconds": 0.16691939998418093,
+  "inference_seconds": 0.22692929999902844,
+  "lower": 751.884089,
+  "scale": 218.103661,
+  "training_targets": 343,
+  "selection_training_end": "2024-05-19 12:00:00",
+  "validation_start": "2024-05-19 18:00:00",
+  "outer_training_end": "2024-06-20 00:00:00",
+  "test_start": "2024-06-20 06:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": "all past training data, not limited to lag context",
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

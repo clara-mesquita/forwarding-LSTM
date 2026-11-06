@@ -1,0 +1,123 @@
+{
+  "fingerprint": "11a28f161c27a135c4f18994f22b6851c9722b8997c1f422b649436dff1ba085",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "sbrc",
+  "link": "go-sp_bbr_interval_0_6h",
+  "context": 3,
+  "model": "RandomForest",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "n_estimators": 300,
+      "max_depth": 5,
+      "min_samples_leaf": 5
+    },
+    "selection_cutoff": 500,
+    "validation_mse_mbps": 310.97236708092635,
+    "seconds": 1.9694518996402621
+  },
+  "candidates": [
+    {
+      "config": {
+        "n_estimators": 100,
+        "max_depth": 5,
+        "min_samples_leaf": 2
+      },
+      "selection_cutoff": 500,
+      "validation_mse_mbps": 945.5726470914806,
+      "seconds": 0.6694044996984303
+    },
+    {
+      "config": {
+        "n_estimators": 100,
+        "max_depth": 5,
+        "min_samples_leaf": 5
+      },
+      "selection_cutoff": 500,
+      "validation_mse_mbps": 343.31706060332124,
+      "seconds": 0.6366369999013841
+    },
+    {
+      "config": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 2
+      },
+      "selection_cutoff": 500,
+      "validation_mse_mbps": 871.6601446028226,
+      "seconds": 0.6658794996328652
+    },
+    {
+      "config": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+      },
+      "selection_cutoff": 500,
+      "validation_mse_mbps": 344.4757017584988,
+      "seconds": 0.8084653997793794
+    },
+    {
+      "config": {
+        "n_estimators": 300,
+        "max_depth": 5,
+        "min_samples_leaf": 2
+      },
+      "selection_cutoff": 500,
+      "validation_mse_mbps": 851.0620216826093,
+      "seconds": 2.02272060001269
+    },
+    {
+      "config": {
+        "n_estimators": 300,
+        "max_depth": 5,
+        "min_samples_leaf": 5
+      },
+      "selection_cutoff": 500,
+      "validation_mse_mbps": 310.97236708092635,
+      "seconds": 1.9694518996402621
+    },
+    {
+      "config": {
+        "n_estimators": 300,
+        "max_depth": 10,
+        "min_samples_leaf": 2
+      },
+      "selection_cutoff": 500,
+      "validation_mse_mbps": 822.8385602570496,
+      "seconds": 2.294858700130135
+    },
+    {
+      "config": {
+        "n_estimators": 300,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+      },
+      "selection_cutoff": 500,
+      "validation_mse_mbps": 312.4002809939403,
+      "seconds": 2.2981147998943925
+    }
+  ],
+  "selection_seconds": 11.367536699865013,
+  "training_seconds": 0.22016769973561168,
+  "inference_seconds": 2.5702859996818006,
+  "lower": 261.358378,
+  "scale": 729.0757169999999,
+  "training_targets": 284,
+  "selection_training_end": "2024-05-19 12:00:00",
+  "validation_start": "2024-05-19 18:00:00",
+  "outer_training_end": "2024-06-20 00:00:00",
+  "test_start": "2024-06-20 06:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

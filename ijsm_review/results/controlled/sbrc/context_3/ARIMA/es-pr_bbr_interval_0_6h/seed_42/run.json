@@ -1,0 +1,113 @@
+{
+  "fingerprint": "0488f5bcabbcdda3724a875ddb0ef3e63529d7d7cdc1cfe216cfe2e3a1ef2795",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "sbrc",
+  "link": "es-pr_bbr_interval_0_6h",
+  "context": 3,
+  "model": "ARIMA",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "order": [
+        1,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "selection_cutoff": 380,
+    "warnings": [],
+    "converged": true,
+    "validation_mse_mbps": 509.22164962882755,
+    "seconds": 0.5581037998199463
+  },
+  "candidates": [
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_cutoff": 380,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 1011.6707024090479,
+      "seconds": 0.4178690998815
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          1,
+          0
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_cutoff": 380,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 778.0434642746236,
+      "seconds": 0.3961057998239994
+    },
+    {
+      "config": {
+        "order": [
+          1,
+          0,
+          1
+        ],
+        "seasonal_order": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "selection_cutoff": 380,
+      "warnings": [],
+      "converged": true,
+      "validation_mse_mbps": 509.22164962882755,
+      "seconds": 0.5581037998199463
+    }
+  ],
+  "selection_seconds": 1.3731247996911407,
+  "training_seconds": 0.11959149967879057,
+  "inference_seconds": 0.2233271999284625,
+  "lower": 515.219079,
+  "scale": 422.158763,
+  "training_targets": 290,
+  "selection_training_end": "2024-04-19 12:00:00",
+  "validation_start": "2024-04-19 18:00:00",
+  "outer_training_end": "2024-06-20 00:00:00",
+  "test_start": "2024-06-20 06:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": "all past training data, not limited to lag context",
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

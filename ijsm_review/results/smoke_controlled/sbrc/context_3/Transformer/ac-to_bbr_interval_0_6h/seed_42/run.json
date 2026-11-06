@@ -1,0 +1,75 @@
+{
+  "fingerprint": "9ccd400cbfa9805fe0a9611cf05183cdb23e3863831e8d36ce5ddd13b3a296d5",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "sbrc",
+  "link": "ac-to_bbr_interval_0_6h",
+  "context": 3,
+  "model": "Transformer",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "layers": 2,
+      "learning_rate": 0.001,
+      "batch_size": 32
+    },
+    "selected_epochs": 2,
+    "validation_loss": [
+      0.12560491263866425,
+      0.01639305055141449
+    ],
+    "validation_mse_mbps": 722.9776812223448,
+    "seconds": 0.1539568998850882
+  },
+  "candidates": [
+    {
+      "config": {
+        "layers": 1,
+        "learning_rate": 0.001,
+        "batch_size": 32
+      },
+      "selected_epochs": 2,
+      "validation_loss": [
+        0.12329832464456558,
+        0.02272137440741062
+      ],
+      "validation_mse_mbps": 1029.792040913049,
+      "seconds": 0.06322049954906106
+    },
+    {
+      "config": {
+        "layers": 2,
+        "learning_rate": 0.001,
+        "batch_size": 32
+      },
+      "selected_epochs": 2,
+      "validation_loss": [
+        0.12560491263866425,
+        0.01639305055141449
+      ],
+      "validation_mse_mbps": 722.9776812223448,
+      "seconds": 0.1539568998850882
+    }
+  ],
+  "selection_seconds": 0.2185085997916758,
+  "training_seconds": 0.07378950016573071,
+  "inference_seconds": 0.0525585999712348,
+  "lower": 722.464587,
+  "scale": 212.4458679999999,
+  "training_targets": 339,
+  "selection_training_end": "2024-05-19 12:00:00",
+  "validation_start": "2024-05-19 18:00:00",
+  "outer_training_end": "2024-06-20 00:00:00",
+  "test_start": "2024-06-20 06:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "fingerprint": "c6364a041399086a3729fe0c4eba34cea0b78642438a11232e8f45a56597fa01",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "sbrc",
+  "link": "ac-to_bbr_interval_0_6h",
+  "context": 3,
+  "model": "ForwardingLSTM",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "units": 64,
+      "learning_rate": 0.001,
+      "batch_size": 32
+    },
+    "selected_epochs": 2,
+    "validation_loss": [
+      0.17066429555416107,
+      0.0992402657866478
+    ],
+    "validation_mse_mbps": 13315.59128457304,
+    "seconds": 0.05300439987331629
+  },
+  "candidates": [
+    {
+      "config": {
+        "units": 64,
+        "learning_rate": 0.001,
+        "batch_size": 32
+      },
+      "selected_epochs": 2,
+      "validation_loss": [
+        0.17066429555416107,
+        0.0992402657866478
+      ],
+      "validation_mse_mbps": 13315.59128457304,
+      "seconds": 0.05300439987331629
+    },
+    {
+      "config": {
+        "units": 64,
+        "learning_rate": 0.001,
+        "batch_size": 64
+      },
+      "selected_epochs": 2,
+      "validation_loss": [
+        0.1915075033903122,
+        0.16479317843914032
+      ],
+      "validation_mse_mbps": 28684.823926741727,
+      "seconds": 0.04832820035517216
+    },
+    {
+      "config": {
+        "units": 64,
+        "learning_rate": 0.001,
+        "batch_size": 128
+      },
+      "selected_epochs": 2,
+      "validation_loss": [
+        0.20080922544002533,
+        0.1866256594657898
+      ],
+      "validation_mse_mbps": 35010.53945722439,
+      "seconds": 0.05938160000368953
+    }
+  ],
+  "selection_seconds": 0.16223959997296333,
+  "training_seconds": 0.03883119998499751,
+  "inference_seconds": 0.027181499637663364,
+  "lower": 722.464587,
+  "scale": 212.4458679999999,
+  "training_targets": 339,
+  "selection_training_end": "2024-05-19 12:00:00",
+  "validation_start": "2024-05-19 18:00:00",
+  "outer_training_end": "2024-06-20 00:00:00",
+  "test_start": "2024-06-20 06:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": "PyTorch port preserving recurrent architecture and Huber loss; controlled tuning differs from legacy runs",
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

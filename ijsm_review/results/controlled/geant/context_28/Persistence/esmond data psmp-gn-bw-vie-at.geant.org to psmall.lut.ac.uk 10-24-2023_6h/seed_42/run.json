@@ -1,0 +1,45 @@
+{
+  "fingerprint": "a40caf05e13c6e03bdba54dd82ff6fbbbd06eaff19b2b540b27bdc6324e83257",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h",
+  "context": 28,
+  "model": "Persistence",
+  "seed": 42,
+  "chosen": {
+    "config": {},
+    "selection_cutoff": 152,
+    "validation_mse_mbps": 3382.679964332016,
+    "seconds": 0.00010149972513318062
+  },
+  "candidates": [
+    {
+      "config": {},
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 3382.679964332016,
+      "seconds": 0.00010149972513318062
+    }
+  ],
+  "selection_seconds": 0.0006056996062397957,
+  "training_seconds": 1.600012183189392e-06,
+  "inference_seconds": 0.0001405002549290657,
+  "lower": 87.41876,
+  "scale": 238.61087799999996,
+  "training_targets": 109,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

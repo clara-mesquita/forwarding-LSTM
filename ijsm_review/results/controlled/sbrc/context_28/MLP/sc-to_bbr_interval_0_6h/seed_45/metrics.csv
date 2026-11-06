@@ -1,0 +1,2 @@
+observed_test_intervals,RMSE,MAE,Fuzzy_Accuracy,fuzzy_evaluated_intervals,NRMSE_mean,SMAPE,dataset,link,model,context,seed
+30,18.54457250929452,13.287826439547091,0.9916666666666667,30,0.019713296777515356,1.4128478344034692,sbrc,sc-to_bbr_interval_0_6h,MLP,28,45

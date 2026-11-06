@@ -1,0 +1,2 @@
+observed_test_intervals,RMSE,MAE,NRMSE_mean,SMAPE,Fuzzy_Accuracy,fuzzy_evaluated_intervals,dataset,link,model,context,seed
+0,,,,,,0,sbrc,es-pr_bbr_interval_0_6h,Ridge,28,42

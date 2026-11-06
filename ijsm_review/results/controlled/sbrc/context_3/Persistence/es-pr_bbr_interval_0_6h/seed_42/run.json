@@ -1,0 +1,45 @@
+{
+  "fingerprint": "7531213dcb037b743bfba2831ce7d268c4c6288f7aadee9b9f9613426036838c",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "sbrc",
+  "link": "es-pr_bbr_interval_0_6h",
+  "context": 3,
+  "model": "Persistence",
+  "seed": 42,
+  "chosen": {
+    "config": {},
+    "selection_cutoff": 380,
+    "validation_mse_mbps": 985.3477833018097,
+    "seconds": 0.0015266002155840397
+  },
+  "candidates": [
+    {
+      "config": {},
+      "selection_cutoff": 380,
+      "validation_mse_mbps": 985.3477833018097,
+      "seconds": 0.0015266002155840397
+    }
+  ],
+  "selection_seconds": 0.0033049997873604298,
+  "training_seconds": 3.4999102354049683e-06,
+  "inference_seconds": 0.00040740007534623146,
+  "lower": 515.219079,
+  "scale": 422.158763,
+  "training_targets": 290,
+  "selection_training_end": "2024-04-19 12:00:00",
+  "validation_start": "2024-04-19 18:00:00",
+  "outer_training_end": "2024-06-20 00:00:00",
+  "test_start": "2024-06-20 06:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "fingerprint": "b30a908934372fc1e289e582f56898bd25359fc71f4abba1e3bd9a31c5f3784d",
+  "protocol": "univariate online hybrid one-step",
+  "units": "Mbit/s",
+  "dataset": "geant",
+  "link": "esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h",
+  "context": 3,
+  "model": "Ridge",
+  "seed": 42,
+  "chosen": {
+    "config": {
+      "alpha": 100.0
+    },
+    "selection_cutoff": 152,
+    "validation_mse_mbps": 536.1818959573404,
+    "seconds": 0.0023068999871611595
+  },
+  "candidates": [
+    {
+      "config": {
+        "alpha": 0.1
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 701.2542870967045,
+      "seconds": 0.00411419989541173
+    },
+    {
+      "config": {
+        "alpha": 1.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 558.0414088611673,
+      "seconds": 0.002209300175309181
+    },
+    {
+      "config": {
+        "alpha": 10.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 538.0862877978624,
+      "seconds": 0.0021079001016914845
+    },
+    {
+      "config": {
+        "alpha": 100.0
+      },
+      "selection_cutoff": 152,
+      "validation_mse_mbps": 536.1818959573404,
+      "seconds": 0.0023068999871611595
+    }
+  ],
+  "selection_seconds": 0.011258699931204319,
+  "training_seconds": 0.0014223000034689903,
+  "inference_seconds": 0.0041542998515069485,
+  "lower": 422.547057,
+  "scale": 507.01561300000003,
+  "training_targets": 129,
+  "selection_training_end": "2023-10-02 00:00:00",
+  "validation_start": "2023-10-02 06:00:00",
+  "outer_training_end": "2023-10-11 12:00:00",
+  "test_start": "2023-10-11 18:00:00",
+  "selection_seed": 42,
+  "selection_policy": "select once; refit same configuration and epoch count for all seeds",
+  "statistical_history": null,
+  "implementation_note": null,
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

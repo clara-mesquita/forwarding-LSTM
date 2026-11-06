@@ -1,0 +1,111 @@
+{
+  "arguments": {
+    "model": "TimeMixerPP",
+    "dataset": "sbrc",
+    "input_dir": null,
+    "seq_len": 28,
+    "pred_len": 1,
+    "epochs": 1,
+    "patience": 10,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "seed": 42,
+    "threads": 2,
+    "device": "auto",
+    "output_dir": ".\\ijsm_review\\results\\smoke_benchmarks"
+  },
+  "architecture": {
+    "task_name": "long_term_forecast",
+    "n_steps": 28,
+    "n_features": 6,
+    "n_pred_steps": 1,
+    "n_pred_features": 6,
+    "n_layers": 2,
+    "d_model": 32,
+    "d_ffn": 64,
+    "n_heads": 4,
+    "dropout": 0.1,
+    "top_k": 2,
+    "n_kernels": 2,
+    "channel_mixing": true,
+    "channel_independence": true,
+    "downsampling_layers": 2,
+    "downsampling_window": 2,
+    "downsampling_method": "conv",
+    "use_future_temporal_feature": false,
+    "use_norm": true
+  },
+  "source": {
+    "url": "https://github.com/WenjieDu/PyPOTS.git",
+    "commit": "2271533587bab250163437ed39cfe13cefd8b80a",
+    "paths": [
+      "pypots/nn/modules/timemixerpp",
+      "pypots/nn/modules/revin",
+      "pypots/nn/modules/transformer",
+      "pypots/nn/modules/inception"
+    ],
+    "implementation": "TimeMixer++ community backbone; local adapter averages all scale heads (paper Eq. 3). Not the inaccessible author release."
+  },
+  "software": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "einops": "0.8.2",
+    "reformer-pytorch": "1.4.4",
+    "matplotlib": "3.11.2"
+  },
+  "python": "3.13.16 (main, Oct 14 2026, 01:05:56) [MSC v.1944 64 bit (AMD64)]",
+  "device": "cpu",
+  "columns": [
+    "ac-to_bbr_interval_0_6h",
+    "es-ce_bbr_interval_0_6h",
+    "es-pr_bbr_interval_0_6h",
+    "go-sp_bbr_interval_0_6h",
+    "ms-to_bbr_interval_0_6h",
+    "sc-to_bbr_interval_0_6h"
+  ],
+  "intervals": 783,
+  "selection_training_end": "2024-05-19 12:00:00",
+  "outer_training_end": "2024-06-20 00:00:00",
+  "test_start": "2024-06-20 06:00:00",
+  "selected_epochs": 1,
+  "validation_mse": [
+    0.4544656168681518
+  ],
+  "mean": [
+    899.5489024681843,
+    913.8995585286208,
+    912.2243179247206,
+    964.0267264737752,
+    908.7898038548988,
+    939.5232690991749
+  ],
+  "std": [
+    39.89257525991526,
+    36.92230098711934,
+    30.180618122583095,
+    30.84264355919035,
+    27.92386486851149,
+    16.097278740817668
+  ],
+  "units": "Mbit/s",
+  "training_seconds": 11.254150700289756,
+  "inference_seconds": 3.3087555998936296,
+  "protocol": "online hybrid",
+  "implementation_sha256": {
+    "run_benchmarks.py": "55fd27c456b8e8e7859341e14ba48593aa7c2c22bfece501b8e8b87a310b33cb",
+    "benchmark_models.py": "38071a12ec35ac399111bf4c8192d5e282836d6d82cab554192f39c48e849179",
+    "benchmark_data.py": "62374b6f40d79dd114d35d80bd2cd1fd453d9a40b1aa4f19da3f460fc4b125de",
+    "aggregate_6h.py": "c229bf309c3097756c52d0f8c8cae0d839eaa96643a107aba7eb1670a24b0f59",
+    "forward_prediction.py": "59e0c10db2500c1709966c491ea043cf27b56a80c6b0c83b0507e12599cc11cc",
+    "benchmark_sources.json": "0597d5fde47b036a339d530cfbbcebc1ad722441932da1551d111b84f2f4f41f"
+  },
+  "input_sha256": {
+    "ac-to_bbr_interval_0_6h.csv": "e434320cd030705bb0c4152815f50dd7d576a0dac0ca21d996ced3c9f3093905",
+    "es-ce_bbr_interval_0_6h.csv": "e34a7a1501efe9a2216d09b6827938e57e099d2a6124bb349ad506d614b30e2c",
+    "es-pr_bbr_interval_0_6h.csv": "a13199729a45540d0e2da104ba5a8f55d37e77bd0f06209503c3bb3bf5121a8c",
+    "go-sp_bbr_interval_0_6h.csv": "0124fe3147962854d60a59b774f8ec3c00e2f8801ba0808e270b78687392c827",
+    "ms-to_bbr_interval_0_6h.csv": "3b287d3d1cba04ca94fdf0dea99fb85815493afeb3a0e629489f9a49998b9991",
+    "sc-to_bbr_interval_0_6h.csv": "7f8883dc421a2db0703744194b56d01a1fcf8367f7c98c1d2d43861d9affb582"
+  }
+}
