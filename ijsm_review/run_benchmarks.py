@@ -117,7 +117,10 @@ def run(args):
 
     torch.set_num_threads(min(args.threads, os.cpu_count() or 1))
     seed_all(args.seed)
-    directory = OUTPUT_DIR / "geant" if args.dataset == "geant" else OUTPUT_DIR
+    directory = (Path(args.input_dir) if args.input_dir else
+                 OUTPUT_DIR / "geant" if args.dataset == "geant" else
+                 OUTPUT_DIR if args.dataset == "bbr" else
+                 REVIEW_DIR.parent / "sbrc_final_results" / "choosen_treated_datasets_6h")
     panel = load_panel(directory)
     raw = panel.to_numpy()
     split = int(len(raw) * 0.8)
@@ -189,7 +192,8 @@ def run(args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", choices=(*MODELS, "all"), default="all")
-    parser.add_argument("--dataset", choices=("geant", "bbr"), default="geant")
+    parser.add_argument("--dataset", choices=("geant", "bbr", "sbrc"), default="geant")
+    parser.add_argument("--input-dir", help="Override the directory of 6-hour CSV inputs")
     parser.add_argument("--seq-len", type=int, default=28)
     parser.add_argument("--pred-len", type=int, default=1)
     parser.add_argument("--epochs", type=int, default=100)
@@ -210,6 +214,8 @@ def main():
             arguments["model"] = name
             command = [sys.executable, str(Path(__file__).resolve())]
             for key, value in arguments.items():
+                if value is None:
+                    continue
                 command.extend([f"--{key.replace('_', '-')}", str(value)])
             subprocess.run(command, check=True)
     else:

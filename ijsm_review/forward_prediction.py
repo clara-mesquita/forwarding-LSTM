@@ -1,10 +1,12 @@
-"""Train and evaluate the proposed hybrid recursive LSTM on GEANT data.
+"""Train and evaluate the proposed hybrid recursive LSTM on review datasets.
 
 Run: python ijsm_review/forward_prediction.py
 Dependencies: pandas, numpy, scikit-learn, tensorflow.
 """
 
 import json
+import argparse
+import hashlib
 import importlib.util
 from itertools import product
 from pathlib import Path
@@ -146,25 +148,49 @@ def train_model(train):
 def main():
     import tensorflow as tf
 
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--dataset", choices=("geant", "bbr", "sbrc"), default="geant")
+    parser.add_argument("--input-dir", type=Path, help="Override the directory of 6-hour CSV inputs")
+    parser.add_argument("--output-dir", type=Path, default=REVIEW_DIR / "results" / "forwarding_lstm")
+    parser.add_argument("--source", help="Run only this input CSV filename")
+    parser.add_argument("--skip-existing", action="store_true", help="Resume completed inputs with matching source hash")
+    args = parser.parse_args()
     tf.keras.utils.set_random_seed(42)
-    sources = sorted(GEANT_DIR.glob("*.csv"))
+    directory = args.input_dir or (GEANT_DIR if args.dataset == "geant" else
+                                   OUTPUT_DIR if args.dataset == "bbr" else
+                                   REVIEW_DIR.parent / "sbrc_final_results" / "choosen_treated_datasets_6h")
+    sources = sorted(directory.glob("*.csv"))
+    if args.source:
+        sources = [source for source in sources if source.name == args.source]
     if not sources:
-        raise FileNotFoundError(f"No GEANT CSV files found in {GEANT_DIR}")
-    data_dir = OUTPUT_DIR / "geant"
-    result_dir = REVIEW_DIR / "results" / "geant"
-    data_dir.mkdir(parents=True, exist_ok=True)
+        raise FileNotFoundError(f"No CSV files found in {directory}")
+    from benchmark_data import load_panel
+    panel = load_panel(directory)
+    result_dir = args.output_dir / args.dataset
     result_dir.mkdir(parents=True, exist_ok=True)
     for source in sources:
-        print(f"Processing {source.name}", flush=True)
-        df, train, test, split = prepare_data(pd.read_csv(source))
         name = source.stem if source.stem.endswith("_6h") else f"{source.stem}_6h"
-        df.to_csv(data_dir / f"{name}.csv", index=False)
+        source_hash = hashlib.sha256(source.read_bytes()).hexdigest()
+        metrics_path = result_dir / f"{name}_metrics.json"
+        if args.skip_existing and metrics_path.exists() and (result_dir / f"{name}.keras").exists() and (result_dir / f"{name}_predictions.csv").exists():
+            saved = json.loads(metrics_path.read_text(encoding="utf-8"))
+            if saved.get("source_sha256") == source_hash and saved.get("shared_intervals") == len(panel) and saved.get("test_start") == str(panel.index[int(len(panel) * 0.8)]):
+                print(f"Skipping completed {source.name}", flush=True)
+                continue
+        print(f"Processing {source.name}", flush=True)
+        aligned = pd.DataFrame({"Data": panel.index,
+                                "Vazao": panel[source.stem].to_numpy() * 1e6})
+        aligned["Vazao"] = aligned["Vazao"].fillna(-1)
+        df, train, test, split = prepare_data(aligned)
         model, scaler, params = train_model(train)
         train_scaled = scaler.transform(train.reshape(-1, 1)).ravel()
         test_scaled = scaler.transform(test.reshape(-1, 1)).ravel()
         predictions = scaler.inverse_transform(
             walk_forward(model, train_scaled, test_scaled).reshape(-1, 1)).ravel()
-        metrics = evaluate(test, predictions)
+        metrics = (evaluate(test, predictions) if np.isfinite(test).any() else
+                   {"observed_test_intervals": 0, "RMSE": None, "MAE": None,
+                    "Fuzzy_Accuracy": None, "fuzzy_evaluated_intervals": 0,
+                    "NRMSE_mean": None, "SMAPE": None})
         model.save(result_dir / f"{name}.keras")
         pd.DataFrame({
             "Data": df["Data"].iloc[split:].to_numpy(),
@@ -172,10 +198,14 @@ def main():
             "Observed": np.isfinite(test), "Prediction_Mbps": predictions,
         }).to_csv(result_dir / f"{name}_predictions.csv", index=False)
         metadata = {"parameters": params, "metrics": metrics,
+                    "source": str(source.resolve()),
+                    "source_sha256": source_hash,
+                    "shared_intervals": len(panel),
+                    "test_start": str(panel.index[split]),
                     "look_back": LOOK_BACK, "window_size": WINDOW_SIZE,
                     "scaler_min": scaler.data_min_.tolist(),
                     "scaler_max": scaler.data_max_.tolist(), "units": "Mbit/s"}
-        (result_dir / f"{name}_metrics.json").write_text(
+        metrics_path.write_text(
             json.dumps(metadata, indent=2, allow_nan=False), encoding="utf-8")
         print(metrics, flush=True)
 

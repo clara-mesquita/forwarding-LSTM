@@ -1,0 +1,4 @@
+-r requirements-benchmarks.txt
+scikit-learn>=1.6
+statsmodels>=0.14
+joblib>=1.4
