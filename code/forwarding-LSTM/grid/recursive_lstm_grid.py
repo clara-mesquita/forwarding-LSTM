@@ -320,6 +320,8 @@ def main():
             print(f"Directory not found, skipping: {DATASET_DIR}")
             continue
 
+        os.makedirs(RESULTS_DIR, exist_ok=True)
+
         logging.basicConfig(
             filename=LOG_FILE,
             level=logging.INFO,

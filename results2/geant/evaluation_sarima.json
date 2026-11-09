@@ -1,0 +1,72 @@
+{
+    "esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h_SARIMA": {
+        "RMSE": 574.0835984803953,
+        "MAE": 444.4871563128412,
+        "NRMSE": 1.2892237031370026,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 15.980951309204102
+    },
+    "esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h_SARIMA": {
+        "RMSE": 570.0044314055247,
+        "MAE": 434.57266535591987,
+        "NRMSE": 1.3074182173889768,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 15.439498662948608
+    },
+    "esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h_SARIMA": {
+        "RMSE": 1012.4932611851086,
+        "MAE": 1005.1851516288494,
+        "NRMSE": 0.7380686964971793,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 4.557527542114258
+    },
+    "esmond data psmall.lut.ac.uk to psmp-gn-bw-vie-at.geant.org 10-24-2023_6h_SARIMA": {
+        "RMSE": 612.0022858166378,
+        "MAE": 481.39516787909355,
+        "NRMSE": 1.2339688500707693,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 10.581024646759033
+    },
+    "esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h_SARIMA": {
+        "RMSE": 994.1492479563461,
+        "MAE": 903.911877363746,
+        "NRMSE": 1.7231292032783898,
+        "Fuzzy_Accuracy": null,
+        "Execution_Time": 11.32014775276184
+    },
+    "esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar.restena.lu 10-24-2023_6h_SARIMA": {
+        "RMSE": 702.5683400589421,
+        "MAE": 581.047078681967,
+        "NRMSE": 1.2573461484477746,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 11.727920532226562
+    },
+    "esmond data psmp-gn-bw-poz-pl.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h_SARIMA": {
+        "RMSE": 734.1336455716514,
+        "MAE": 599.7132291740336,
+        "NRMSE": 1.2240521421860031,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 11.463232517242432
+    },
+    "esmond data psmp-gn-bw-poz-pl.geant.org to pspmp-anella.csuc.cat 10-24-2023_6h_SARIMA": {
+        "RMSE": 736.1721002890345,
+        "MAE": 620.9505511758813,
+        "NRMSE": 1.185554397804804,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 15.533413171768188
+    },
+    "esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h_SARIMA": {
+        "RMSE": 82.66353822509797,
+        "MAE": 75.44074279507042,
+        "NRMSE": 0.892616025086305,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 13.88723874092102
+    },
+    "esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h_SARIMA": {
+        "RMSE": 621.8200243234817,
+        "MAE": 488.246286530736,
+        "NRMSE": 1.2563176803339136,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 14.250128507614136
+    }
+}

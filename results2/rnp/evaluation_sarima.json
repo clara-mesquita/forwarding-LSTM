@@ -1,0 +1,44 @@
+{
+    "ac-to_bbr_interval_0_6h_SARIMA": {
+        "RMSE": 395.89539019057656,
+        "MAE": 380.57074764471326,
+        "NRMSE": 0.8076553658216397,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 23.606643199920654
+    },
+    "es-ce_bbr_interval_0_6h_SARIMA": {
+        "RMSE": 444.3945300562707,
+        "MAE": 337.5254541365295,
+        "NRMSE": 0.7079236457489337,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 19.15476679801941
+    },
+    "es-pr_bbr_interval_0_6h_SARIMA": {
+        "RMSE": 725.2092784999229,
+        "MAE": 594.96569548986,
+        "NRMSE": 1.2058656877273075,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 23.599523782730103
+    },
+    "go-sp_bbr_interval_0_6h_SARIMA": {
+        "RMSE": 547.870709328287,
+        "MAE": 512.8337216620921,
+        "NRMSE": 0.780083432253569,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 13.673795461654663
+    },
+    "ms-to_bbr_interval_0_6h_SARIMA": {
+        "RMSE": 460.7827904646298,
+        "MAE": 449.9242109411026,
+        "NRMSE": 0.8066388641062955,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 26.048556327819824
+    },
+    "sc-to_bbr_interval_0_6h_SARIMA": {
+        "RMSE": 504.39330737956215,
+        "MAE": 482.82380554340597,
+        "NRMSE": 0.9174770754803495,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 25.21250081062317
+    }
+}

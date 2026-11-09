@@ -1,0 +1,44 @@
+{
+    "ac-to_bbr_interval_0_6h_LSTM": {
+        "RMSE": 340.2260223907475,
+        "MAE": 268.8255326096165,
+        "NRMSE": 0.6940858100008794,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 24.313428163528442
+    },
+    "es-ce_bbr_interval_0_6h_LSTM": {
+        "RMSE": 459.6887264554743,
+        "MAE": 285.8441469530082,
+        "NRMSE": 0.732287409345109,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 37.861008405685425
+    },
+    "es-pr_bbr_interval_0_6h_LSTM": {
+        "RMSE": 459.2431194624964,
+        "MAE": 283.15547133552855,
+        "NRMSE": 0.763621669637444,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 42.641793966293335
+    },
+    "go-sp_bbr_interval_0_6h_LSTM": {
+        "RMSE": 544.5014419238595,
+        "MAE": 521.6851454602947,
+        "NRMSE": 0.775286114864128,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 29.133329391479492
+    },
+    "ms-to_bbr_interval_0_6h_LSTM": {
+        "RMSE": 450.3746740657606,
+        "MAE": 373.03342918941473,
+        "NRMSE": 0.7884185846965452,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 22.94620418548584
+    },
+    "sc-to_bbr_interval_0_6h_LSTM": {
+        "RMSE": 519.8085323794974,
+        "MAE": 433.555841961129,
+        "NRMSE": 0.9455169311721088,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 28.748719215393066
+    }
+}
