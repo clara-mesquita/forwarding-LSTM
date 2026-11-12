@@ -233,7 +233,7 @@ def plot_loss_cv(mean_history, model_name, link, results_path):
     )
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     plt.savefig(save_path)
-    plt.show()
+    plt.close()
 
 def plot_rmse_cv(mean_history, model_name, link, results_path):
     epochs = range(1, len(mean_history["root_mean_squared_error"]) + 1)
@@ -251,7 +251,7 @@ def plot_rmse_cv(mean_history, model_name, link, results_path):
     )
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     plt.savefig(save_path)
-    plt.show()
+    plt.close()
 
 def plot_future(prediction, y_test, model_name, link, results_path):
     plt.figure(figsize=(15, 6), dpi=100)
@@ -267,7 +267,7 @@ def plot_future(prediction, y_test, model_name, link, results_path):
     )
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
     plt.savefig(save_path)
-    plt.show()
+    plt.close()
 
 def save_model_and_metrics(model, metrics, model_dir, metrics_path, file_name):
     if not os.path.exists(model_dir):

@@ -1,72 +1,72 @@
 {
     "esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h_LSTM": {
-        "RMSE": 345.0275314084381,
-        "MAE": 273.30224160843323,
-        "NRMSE": 0.7748308310915721,
+        "RMSE": 344.67961477115807,
+        "MAE": 271.67479299637614,
+        "NRMSE": 0.7740495121744589,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 26.757197618484497
+        "Execution_Time": 131.12762188911438
     },
     "esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h_LSTM": {
-        "RMSE": 371.5181843146013,
-        "MAE": 296.0511446846773,
-        "NRMSE": 0.8521506421738979,
+        "RMSE": 382.85086601091194,
+        "MAE": 300.40927940430595,
+        "NRMSE": 0.8781443953541886,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 27.448477029800415
+        "Execution_Time": 122.87476372718811
     },
     "esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h_LSTM": {
-        "RMSE": 872.7658516058169,
-        "MAE": 573.4296293490968,
-        "NRMSE": 0.6362127819872843,
+        "RMSE": 872.3227976413092,
+        "MAE": 585.986157416168,
+        "NRMSE": 0.6358898126653162,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 29.800042152404785
+        "Execution_Time": 157.85922288894653
     },
     "esmond data psmall.lut.ac.uk to psmp-gn-bw-vie-at.geant.org 10-24-2023_6h_LSTM": {
-        "RMSE": 445.24547154870436,
-        "MAE": 317.7383484739538,
-        "NRMSE": 0.8977401804848547,
+        "RMSE": 442.5949024771741,
+        "MAE": 313.19376755357666,
+        "NRMSE": 0.8923958872607454,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 46.69592475891113
+        "Execution_Time": 267.38504552841187
     },
     "esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h_LSTM": {
-        "RMSE": 351.11498882572687,
-        "MAE": 204.4482692205938,
-        "NRMSE": 0.608577124811085,
+        "RMSE": 351.80535885891584,
+        "MAE": 202.21561513628166,
+        "NRMSE": 0.6097737225731429,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 41.987276792526245
+        "Execution_Time": 204.053156375885
     },
     "esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar.restena.lu 10-24-2023_6h_LSTM": {
-        "RMSE": 340.99772178064825,
-        "MAE": 243.53932971569054,
-        "NRMSE": 0.6102640094405529,
+        "RMSE": 342.3780453783428,
+        "MAE": 246.27041437248687,
+        "NRMSE": 0.6127342951910142,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 25.936267614364624
+        "Execution_Time": 140.7016785144806
     },
     "esmond data psmp-gn-bw-poz-pl.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h_LSTM": {
-        "RMSE": 361.9895624306152,
-        "MAE": 196.4919229001106,
-        "NRMSE": 0.6035605397122784,
+        "RMSE": 361.4202638584227,
+        "MAE": 197.75068631876914,
+        "NRMSE": 0.6026113240741734,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 41.46135950088501
+        "Execution_Time": 213.3872423171997
     },
     "esmond data psmp-gn-bw-poz-pl.geant.org to pspmp-anella.csuc.cat 10-24-2023_6h_LSTM": {
-        "RMSE": 309.14555756788405,
-        "MAE": 152.45078889091408,
-        "NRMSE": 0.49785760040692273,
+        "RMSE": 315.1682476823845,
+        "MAE": 142.4541084295361,
+        "NRMSE": 0.5075567274847598,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 54.178980588912964
+        "Execution_Time": 264.75776076316833
     },
     "esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h_LSTM": {
-        "RMSE": 60.14781485958702,
-        "MAE": 45.22405090226806,
-        "NRMSE": 0.6494871205657,
+        "RMSE": 60.49034109474734,
+        "MAE": 44.61869804363971,
+        "NRMSE": 0.6531857815845887,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 26.4961199760437
+        "Execution_Time": 148.09229850769043
     },
     "esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h_LSTM": {
-        "RMSE": 413.86735342192117,
-        "MAE": 345.3250836528172,
-        "NRMSE": 0.8361726111709735,
+        "RMSE": 417.00871778712235,
+        "MAE": 344.35544493756373,
+        "NRMSE": 0.8425193858613944,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 28.35515594482422
+        "Execution_Time": 119.04613161087036
     }
 }

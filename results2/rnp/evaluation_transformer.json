@@ -1,0 +1,44 @@
+{
+    "ac-to_bbr_interval_0_6h_Transformer": {
+        "RMSE": 339.10949048601543,
+        "MAE": 238.52339723292752,
+        "NRMSE": 0.6762687355443351,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 121.21763944625854
+    },
+    "es-ce_bbr_interval_0_6h_Transformer": {
+        "RMSE": 386.8777548911611,
+        "MAE": 236.34964392146287,
+        "NRMSE": 0.6268318602950265,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 144.9929220676422
+    },
+    "es-pr_bbr_interval_0_6h_Transformer": {
+        "RMSE": 400.60173933351734,
+        "MAE": 237.06458025623584,
+        "NRMSE": 0.6314517482034049,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 190.92874097824097
+    },
+    "go-sp_bbr_interval_0_6h_Transformer": {
+        "RMSE": 399.0096050335502,
+        "MAE": 371.2514468521891,
+        "NRMSE": 0.5115536367337367,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 64.13627624511719
+    },
+    "ms-to_bbr_interval_0_6h_Transformer": {
+        "RMSE": 442.84591111891444,
+        "MAE": 316.43745870514044,
+        "NRMSE": 0.7593714719819767,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 142.0334188938141
+    },
+    "sc-to_bbr_interval_0_6h_Transformer": {
+        "RMSE": 511.8118776835832,
+        "MAE": 423.45736230297706,
+        "NRMSE": 0.9180761274360149,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 97.23390245437622
+    }
+}

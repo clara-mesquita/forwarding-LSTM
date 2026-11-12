@@ -1,0 +1,81 @@
+network,link_code,link,model,NRMSE,RMSE,MAE,Execution_Time_s,Fuzzy_Accuracy,source
+RNP,AC-TO,ac-to_bbr_interval_0_6h,Forwarding LSTM,0.7867240642014652,387.3882015046128,256.99287311872075,431.446576833725,1.0,results/rnp/evaluation.json
+RNP,ES-CE,es-ce_bbr_interval_0_6h,Forwarding LSTM,0.7286296336249095,456.2752065053165,302.65330390379603,588.8040924072266,1.0,results/rnp/evaluation.json
+RNP,ES-PR,es-pr_bbr_interval_0_6h,Forwarding LSTM,0.7152236623168149,432.0916573533718,250.405189160342,457.64685702323914,1.0,results/rnp/evaluation.json
+RNP,GO-SP,go-sp_bbr_interval_0_6h,Forwarding LSTM,0.7099349833234998,500.5640872960732,480.66888605905245,303.36413621902466,1.0,results/rnp/evaluation.json
+RNP,MS-TO,ms-to_bbr_interval_0_6h,Forwarding LSTM,0.8243545130092952,469.6644125821971,334.0550354742461,425.046982049942,1.0,results/rnp/evaluation.json
+RNP,SC-TO,sc-to_bbr_interval_0_6h,Forwarding LSTM,0.8967487641656879,491.3843370223509,391.802224568332,567.7374835014343,1.0,results/rnp/evaluation.json
+RNP,AC-TO,ac-to_bbr_interval_0_6h,LSTM,0.6958671573829628,341.0992007868044,270.69219757685534,96.53293824195862,1.0,results2/rnp/evaluation_lstm.json
+RNP,ES-CE,es-ce_bbr_interval_0_6h,LSTM,0.7345476486867532,461.1075772115922,287.7604037046882,152.17408442497253,1.0,results2/rnp/evaluation_lstm.json
+RNP,ES-PR,es-pr_bbr_interval_0_6h,LSTM,0.7767704113327527,467.15079075216414,276.6796277655057,162.83744406700134,1.0,results2/rnp/evaluation_lstm.json
+RNP,GO-SP,go-sp_bbr_interval_0_6h,LSTM,0.7728769846510982,542.8094538311707,520.9924398657184,153.8409388065338,1.0,results2/rnp/evaluation_lstm.json
+RNP,MS-TO,ms-to_bbr_interval_0_6h,LSTM,0.7959426532390493,454.6727081091653,367.9761926287572,96.20591974258423,1.0,results2/rnp/evaluation_lstm.json
+RNP,SC-TO,sc-to_bbr_interval_0_6h,LSTM,0.9443401738959994,519.1615968752299,433.5752559739171,111.93460416793823,1.0,results2/rnp/evaluation_lstm.json
+RNP,AC-TO,ac-to_bbr_interval_0_6h,GRU,0.691791594127576,339.1014468269872,267.49411120946456,90.09642887115479,1.0,results2/rnp/evaluation_gru.json
+RNP,ES-CE,es-ce_bbr_interval_0_6h,GRU,0.7113821636998525,446.5655925270881,287.05568563055186,128.30661797523499,1.0,results2/rnp/evaluation_gru.json
+RNP,ES-PR,es-pr_bbr_interval_0_6h,GRU,0.7759342697175043,466.64793403794675,276.8575450388416,116.56508469581604,1.0,results2/rnp/evaluation_gru.json
+RNP,GO-SP,go-sp_bbr_interval_0_6h,GRU,0.7465298948089752,524.3052808110623,500.7913918216606,107.1144585609436,1.0,results2/rnp/evaluation_gru.json
+RNP,MS-TO,ms-to_bbr_interval_0_6h,GRU,0.7841663864452472,447.9456567408729,369.12433381068564,92.13934278488159,1.0,results2/rnp/evaluation_gru.json
+RNP,SC-TO,sc-to_bbr_interval_0_6h,GRU,0.9438007791477717,518.8650585656494,433.756740144546,112.45098233222961,1.0,results2/rnp/evaluation_gru.json
+RNP,AC-TO,ac-to_bbr_interval_0_6h,SARIMA,0.8076553658216397,395.89539019057656,380.57074764471326,60.74769639968872,1.0,results2/rnp/evaluation_sarima.json
+RNP,ES-CE,es-ce_bbr_interval_0_6h,SARIMA,0.7079236457489337,444.3945300562707,337.5254541365295,47.69688844680786,1.0,results2/rnp/evaluation_sarima.json
+RNP,ES-PR,es-pr_bbr_interval_0_6h,SARIMA,1.2058656877273075,725.2092784999229,594.96569548986,59.138644218444824,1.0,results2/rnp/evaluation_sarima.json
+RNP,GO-SP,go-sp_bbr_interval_0_6h,SARIMA,0.780083432253569,547.870709328287,512.8337216620921,35.23673892021179,1.0,results2/rnp/evaluation_sarima.json
+RNP,MS-TO,ms-to_bbr_interval_0_6h,SARIMA,0.8066388641062955,460.7827904646298,449.9242109411026,65.41958570480347,1.0,results2/rnp/evaluation_sarima.json
+RNP,SC-TO,sc-to_bbr_interval_0_6h,SARIMA,0.9174770754803495,504.39330737956215,482.82380554340597,64.31806826591492,1.0,results2/rnp/evaluation_sarima.json
+RNP,AC-TO,ac-to_bbr_interval_0_6h,Transformer,0.6762687355443351,339.10949048601543,238.52339723292752,121.21763944625854,1.0,results2/rnp/evaluation_transformer.json
+RNP,ES-CE,es-ce_bbr_interval_0_6h,Transformer,0.6268318602950265,386.8777548911611,236.34964392146287,144.9929220676422,1.0,results2/rnp/evaluation_transformer.json
+RNP,ES-PR,es-pr_bbr_interval_0_6h,Transformer,0.6314517482034049,400.60173933351734,237.06458025623584,190.92874097824097,1.0,results2/rnp/evaluation_transformer.json
+RNP,GO-SP,go-sp_bbr_interval_0_6h,Transformer,0.5115536367337367,399.0096050335502,371.2514468521891,64.13627624511719,1.0,results2/rnp/evaluation_transformer.json
+RNP,MS-TO,ms-to_bbr_interval_0_6h,Transformer,0.7593714719819767,442.84591111891444,316.43745870514044,142.0334188938141,1.0,results2/rnp/evaluation_transformer.json
+RNP,SC-TO,sc-to_bbr_interval_0_6h,Transformer,0.9180761274360149,511.8118776835832,423.45736230297706,97.23390245437622,1.0,results2/rnp/evaluation_transformer.json
+GÉANT,G01,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,Forwarding LSTM,0.953044163890743,421.405489650985,346.91935354527345,346.98773741722107,1.0,results/geant/evaluation.json
+GÉANT,G02,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,Forwarding LSTM,1.0125798507621948,447.7235163025409,375.8083550928773,511.59129643440247,1.0,results/geant/evaluation.json
+GÉANT,G03,esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,Forwarding LSTM,0.8097250602411012,1084.1877474476792,1027.0979314877604,251.42344117164612,1.0,results/geant/evaluation.json
+GÉANT,G04,esmond data psmall.lut.ac.uk to psmp-gn-bw-vie-at.geant.org 10-24-2023_6h,Forwarding LSTM,1.111662503732802,546.8019744531616,425.909959506997,192.78437900543213,1.0,results/geant/evaluation.json
+GÉANT,G05,esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,Forwarding LSTM,0.916065073241763,529.9825844220018,344.81444349120574,146.33866047859192,1.0,results/geant/evaluation.json
+GÉANT,G06,esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar.restena.lu 10-24-2023_6h,Forwarding LSTM,0.8536407249737088,483.7553379449207,323.0186730598432,111.73544812202454,1.0,results/geant/evaluation.json
+GÉANT,G07,esmond data psmp-gn-bw-poz-pl.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,Forwarding LSTM,0.9064258366440499,551.3462321839469,388.92550959799905,145.05205178260803,1.0,results/geant/evaluation.json
+GÉANT,G08,esmond data psmp-gn-bw-poz-pl.geant.org to pspmp-anella.csuc.cat 10-24-2023_6h,Forwarding LSTM,0.7951260344819991,491.11168569693615,342.07707808772204,155.7899613380432,1.0,results/geant/evaluation.json
+GÉANT,G09,esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h,Forwarding LSTM,0.9405914482817306,86.82983544477668,67.04896804965001,209.27952980995178,1.0,results/geant/evaluation.json
+GÉANT,G10,esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,Forwarding LSTM,0.9190015487179019,458.8937139043045,385.43130322809077,162.7892611026764,1.0,results/geant/evaluation.json
+GÉANT,G01,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,LSTM,0.7740495121744589,344.67961477115807,271.67479299637614,131.12762188911438,1.0,results2/geant/evaluation_lstm.json
+GÉANT,G02,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,LSTM,0.8781443953541886,382.85086601091194,300.40927940430595,122.87476372718811,1.0,results2/geant/evaluation_lstm.json
+GÉANT,G03,esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,LSTM,0.6358898126653162,872.3227976413092,585.986157416168,157.85922288894653,1.0,results2/geant/evaluation_lstm.json
+GÉANT,G04,esmond data psmall.lut.ac.uk to psmp-gn-bw-vie-at.geant.org 10-24-2023_6h,LSTM,0.8923958872607454,442.5949024771741,313.19376755357666,267.38504552841187,1.0,results2/geant/evaluation_lstm.json
+GÉANT,G05,esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,LSTM,0.6097737225731429,351.80535885891584,202.21561513628166,204.053156375885,1.0,results2/geant/evaluation_lstm.json
+GÉANT,G06,esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar.restena.lu 10-24-2023_6h,LSTM,0.6127342951910142,342.3780453783428,246.27041437248687,140.7016785144806,1.0,results2/geant/evaluation_lstm.json
+GÉANT,G07,esmond data psmp-gn-bw-poz-pl.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,LSTM,0.6026113240741734,361.4202638584227,197.75068631876914,213.3872423171997,1.0,results2/geant/evaluation_lstm.json
+GÉANT,G08,esmond data psmp-gn-bw-poz-pl.geant.org to pspmp-anella.csuc.cat 10-24-2023_6h,LSTM,0.5075567274847598,315.1682476823845,142.4541084295361,264.75776076316833,1.0,results2/geant/evaluation_lstm.json
+GÉANT,G09,esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h,LSTM,0.6531857815845887,60.49034109474734,44.61869804363971,148.09229850769043,1.0,results2/geant/evaluation_lstm.json
+GÉANT,G10,esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,LSTM,0.8425193858613944,417.00871778712235,344.35544493756373,119.04613161087036,1.0,results2/geant/evaluation_lstm.json
+GÉANT,G01,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,GRU,0.7706424700764841,343.16247931745806,273.38732461624573,99.21256303787231,1.0,results2/geant/evaluation_gru.json
+GÉANT,G02,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,GRU,0.8811180035309929,384.14729114519463,306.49748745740453,99.89494204521179,1.0,results2/geant/evaluation_gru.json
+GÉANT,G03,esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,GRU,0.6382791610579214,875.6005401571718,583.062648751773,136.9671015739441,1.0,results2/geant/evaluation_gru.json
+GÉANT,G04,esmond data psmall.lut.ac.uk to psmp-gn-bw-vie-at.geant.org 10-24-2023_6h,GRU,0.9208662613888736,456.7151406367274,323.60228531260924,186.42695784568787,1.0,results2/geant/evaluation_gru.json
+GÉANT,G05,esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,GRU,0.611078532651837,352.55816135102816,200.45819640304026,149.1028802394867,1.0,results2/geant/evaluation_gru.json
+GÉANT,G06,esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar.restena.lu 10-24-2023_6h,GRU,0.6346921220999096,354.6474383547551,253.25784801748247,95.96474242210388,1.0,results2/geant/evaluation_gru.json
+GÉANT,G07,esmond data psmp-gn-bw-poz-pl.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,GRU,0.6090982621823126,365.3108493635638,193.01629648285893,165.70261096954346,1.0,results2/geant/evaluation_gru.json
+GÉANT,G08,esmond data psmp-gn-bw-poz-pl.geant.org to pspmp-anella.csuc.cat 10-24-2023_6h,GRU,0.4943049971022793,306.9395622621303,155.72600722059155,207.7299997806549,1.0,results2/geant/evaluation_gru.json
+GÉANT,G09,esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h,GRU,0.6535746140352295,60.52635015714749,45.28805644177844,135.39365196228027,1.0,results2/geant/evaluation_gru.json
+GÉANT,G10,esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,GRU,0.8449921342807352,418.23261561673155,353.3433302618098,112.1390471458435,1.0,results2/geant/evaluation_gru.json
+GÉANT,G01,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,SARIMA,1.2892237031370026,574.0835984803953,444.4871563128412,41.96876835823059,1.0,results2/geant/evaluation_sarima.json
+GÉANT,G02,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,SARIMA,1.3074182173889768,570.0044314055247,434.57266535591987,40.1447057723999,1.0,results2/geant/evaluation_sarima.json
+GÉANT,G03,esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,SARIMA,0.7380686964971793,1012.4932611851086,1005.1851516288494,12.788917541503906,1.0,results2/geant/evaluation_sarima.json
+GÉANT,G04,esmond data psmall.lut.ac.uk to psmp-gn-bw-vie-at.geant.org 10-24-2023_6h,SARIMA,1.2339688500707693,612.0022858166378,481.39516787909355,27.525696516036987,1.0,results2/geant/evaluation_sarima.json
+GÉANT,G05,esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,SARIMA,1.7231292032783898,994.1492479563461,903.911877363746,30.033450841903687,,results2/geant/evaluation_sarima.json
+GÉANT,G06,esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar.restena.lu 10-24-2023_6h,SARIMA,1.2573461484477746,702.5683400589421,581.047078681967,30.082943439483643,1.0,results2/geant/evaluation_sarima.json
+GÉANT,G07,esmond data psmp-gn-bw-poz-pl.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,SARIMA,1.2240521421860031,734.1336455716514,599.7132291740336,31.088520526885986,1.0,results2/geant/evaluation_sarima.json
+GÉANT,G08,esmond data psmp-gn-bw-poz-pl.geant.org to pspmp-anella.csuc.cat 10-24-2023_6h,SARIMA,1.185554397804804,736.1721002890345,620.9505511758813,38.26780557632446,1.0,results2/geant/evaluation_sarima.json
+GÉANT,G09,esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h,SARIMA,0.892616025086305,82.66353822509797,75.44074279507042,34.615493059158325,1.0,results2/geant/evaluation_sarima.json
+GÉANT,G10,esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,SARIMA,1.2563176803339136,621.8200243234817,488.246286530736,37.015984773635864,1.0,results2/geant/evaluation_sarima.json
+GÉANT,G01,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,Transformer,0.9740503464199363,390.00887615908687,299.7252193086738,108.62321138381958,1.0,results2/geant/evaluation_transformer.json
+GÉANT,G02,esmond data perfsonar-ankara.ulakbim.gov.tr to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,Transformer,1.1634615405989785,463.16159767907976,369.2486736378994,87.7584114074707,1.0,results2/geant/evaluation_transformer.json
+GÉANT,G03,esmond data perfsonar-sonda.rediris.es to psmp-gn-bw-lis-pt.geant.org 10-24-2023_6h,Transformer,0.6034016420179739,628.110078374174,472.5031727716471,57.02583956718445,1.0,results2/geant/evaluation_transformer.json
+GÉANT,G04,esmond data psmall.lut.ac.uk to psmp-gn-bw-vie-at.geant.org 10-24-2023_6h,Transformer,1.1092538444671172,528.2053184158092,384.68967147561176,99.62698698043823,1.0,results2/geant/evaluation_transformer.json
+GÉANT,G05,esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,Transformer,0.7342696891719672,389.67330868012215,233.10878952950048,90.32058525085449,1.0,results2/geant/evaluation_transformer.json
+GÉANT,G06,esmond data psmp-gn-bw-lis-pt.geant.org to perfsonar.restena.lu 10-24-2023_6h,Transformer,0.7065216805619055,378.7572614256419,213.28637910539246,133.14135479927063,1.0,results2/geant/evaluation_transformer.json
+GÉANT,G07,esmond data psmp-gn-bw-poz-pl.geant.org to perfsonar-ankara.ulakbim.gov.tr 10-24-2023_6h,Transformer,0.6452269736678512,374.3604628059367,207.84363049434305,118.8203637599945,1.0,results2/geant/evaluation_transformer.json
+GÉANT,G08,esmond data psmp-gn-bw-poz-pl.geant.org to pspmp-anella.csuc.cat 10-24-2023_6h,Transformer,0.5670073268388521,325.2790841348657,179.88885936146977,82.97142720222473,1.0,results2/geant/evaluation_transformer.json
+GÉANT,G09,esmond data psmp-gn-bw-vie-at.geant.org to psmall.lut.ac.uk 10-24-2023_6h,Transformer,0.7600230988303397,65.2534469609799,48.342600291991594,138.0665156841278,1.0,results2/geant/evaluation_transformer.json
+GÉANT,G10,esmond data pspmp-anella.csuc.cat to psmp-gn-bw-poz-pl.geant.org 10-24-2023_6h,Transformer,1.003926547005887,453.79236008598843,343.70610059814436,149.05215716362,1.0,results2/geant/evaluation_transformer.json

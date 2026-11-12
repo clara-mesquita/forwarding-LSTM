@@ -1,9 +1,44 @@
 {
     "ac-to_bbr_interval_0_6h": {
-        "RMSE": 387.98246512493694,
-        "MAE": 254.8915548875212,
-        "NRMSE": 0.7879309194664749,
+        "RMSE": 387.3882015046128,
+        "MAE": 256.99287311872075,
+        "NRMSE": 0.7867240642014652,
         "Fuzzy_Accuracy": 1.0,
-        "Execution_Time": 104.99584913253784
+        "Execution_Time": 431.446576833725
+    },
+    "es-ce_bbr_interval_0_6h": {
+        "RMSE": 456.2752065053165,
+        "MAE": 302.65330390379603,
+        "NRMSE": 0.7286296336249095,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 588.8040924072266
+    },
+    "es-pr_bbr_interval_0_6h": {
+        "RMSE": 432.0916573533718,
+        "MAE": 250.405189160342,
+        "NRMSE": 0.7152236623168149,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 457.64685702323914
+    },
+    "go-sp_bbr_interval_0_6h": {
+        "RMSE": 500.5640872960732,
+        "MAE": 480.66888605905245,
+        "NRMSE": 0.7099349833234998,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 303.36413621902466
+    },
+    "ms-to_bbr_interval_0_6h": {
+        "RMSE": 469.6644125821971,
+        "MAE": 334.0550354742461,
+        "NRMSE": 0.8243545130092952,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 425.046982049942
+    },
+    "sc-to_bbr_interval_0_6h": {
+        "RMSE": 491.3843370223509,
+        "MAE": 391.802224568332,
+        "NRMSE": 0.8967487641656879,
+        "Fuzzy_Accuracy": 1.0,
+        "Execution_Time": 567.7374835014343
     }
 }

@@ -15,6 +15,28 @@ METRICS = [("RMSE", "RMSE (Mbit/s)"), ("MAE", "MAE (Mbit/s)"),
            ("NRMSE_mean", "NRMSE"), ("SMAPE", "SMAPE (%)")]
 
 
+def plot_grouped_links(part, dataset, context, out):
+    models = [model for model in ORDER if model in set(part.model)]
+    labels = sorted(part.link.unique())
+    x = np.arange(len(labels))
+    width = .85 / len(models)
+    for metric, label in METRICS:
+        table = part.pivot(index="link", columns="model", values=metric).reindex(index=labels, columns=models)
+        fig, ax = plt.subplots(figsize=(max(14, len(labels)*1.8), 6), constrained_layout=True)
+        for index, model in enumerate(models):
+            ax.bar(x + (index-(len(models)-1)/2)*width, table[model], width,
+                   label=NAMES.get(model, model))
+        ax.set_xticks(x, labels, rotation=35, ha="right", fontsize=8)
+        ax.set_ylabel(label)
+        ax.set_title(f"{dataset.upper()} | context {context} | lower is better\nMean across seeds for each link")
+        ax.grid(axis="y", alpha=.2)
+        ax.set_axisbelow(True)
+        ax.legend(ncol=5, loc="upper center", bbox_to_anchor=(.5, 1.0), fontsize=8)
+        for suffix in ("png", "pdf"):
+            fig.savefig(out/f"{dataset}_contexto_{context}_{metric.lower()}_grouped_links.{suffix}", dpi=220)
+        plt.close(fig)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     data = pd.read_csv(ROOT/"metrics_all.csv")
@@ -58,6 +80,7 @@ def main():
         plt.close(fig)
 
         part = links[(links.dataset == dataset) & (links.context == context)]
+        plot_grouped_links(part, dataset, context, OUT)
         pivot = part.pivot(index="link", columns="model", values="NRMSE_mean").reindex(columns=ORDER)
         labels = ([link.split("_bbr_")[0].upper() for link in pivot.index] if dataset == "sbrc"
                   else [f"G{i:02d}" for i in range(1, len(pivot)+1)])

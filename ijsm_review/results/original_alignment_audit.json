@@ -1,0 +1,162 @@
+{
+  "archived_rankings": {
+    "ac-to": {
+      "rmse": [
+        "proposal",
+        "sarima",
+        "gru",
+        "lstm"
+      ],
+      "mae": [
+        "proposal",
+        "sarima",
+        "gru",
+        "lstm"
+      ],
+      "smape": [
+        "proposal",
+        "sarima",
+        "gru",
+        "lstm"
+      ]
+    },
+    "es-ce": {
+      "rmse": [
+        "proposal",
+        "sarima",
+        "lstm",
+        "gru"
+      ],
+      "mae": [
+        "proposal",
+        "sarima",
+        "lstm",
+        "gru"
+      ],
+      "smape": [
+        "proposal",
+        "sarima",
+        "lstm",
+        "gru"
+      ]
+    },
+    "es-pr": {
+      "rmse": [
+        "proposal",
+        "lstm",
+        "gru",
+        "sarima"
+      ],
+      "mae": [
+        "proposal",
+        "gru",
+        "lstm",
+        "sarima"
+      ],
+      "smape": [
+        "proposal",
+        "gru",
+        "lstm",
+        "sarima"
+      ]
+    },
+    "go-sp": {
+      "rmse": [
+        "proposal",
+        "gru",
+        "lstm",
+        "sarima"
+      ],
+      "mae": [
+        "proposal",
+        "gru",
+        "lstm",
+        "sarima"
+      ],
+      "smape": [
+        "proposal",
+        "gru",
+        "lstm",
+        "sarima"
+      ]
+    },
+    "ms-to": {
+      "rmse": [
+        "proposal",
+        "sarima",
+        "gru",
+        "lstm"
+      ],
+      "mae": [
+        "proposal",
+        "sarima",
+        "gru",
+        "lstm"
+      ],
+      "smape": [
+        "proposal",
+        "sarima",
+        "gru",
+        "lstm"
+      ]
+    },
+    "sc-to": {
+      "rmse": [
+        "proposal",
+        "sarima",
+        "gru",
+        "lstm"
+      ],
+      "mae": [
+        "proposal",
+        "lstm",
+        "gru",
+        "sarima"
+      ],
+      "smape": [
+        "proposal",
+        "lstm",
+        "gru",
+        "sarima"
+      ]
+    }
+  },
+  "source_checks": {
+    "rollout_starts_at_first_test_target": true,
+    "rollout_returns_original_units": false,
+    "evaluator_shifts_targets_three_steps": true,
+    "evaluator_inverse_transforms_predictions_again": false,
+    "legacy_agreement_is_pearson": true
+  },
+  "first_four_target_pairs": [
+    {
+      "prediction_index": 0,
+      "correct_target_index": 0,
+      "archived_target_index": 3,
+      "offset_hours": 18
+    },
+    {
+      "prediction_index": 1,
+      "correct_target_index": 1,
+      "archived_target_index": 4,
+      "offset_hours": 18
+    },
+    {
+      "prediction_index": 2,
+      "correct_target_index": 2,
+      "archived_target_index": 5,
+      "offset_hours": 18
+    },
+    {
+      "prediction_index": 3,
+      "correct_target_index": 3,
+      "archived_target_index": 6,
+      "offset_hours": 18
+    }
+  ],
+  "scaling_example_mbps": {
+    "correct": 700.0,
+    "double_inverse": 280500.0
+  },
+  "status": "Archived scores require aligned replay before extension."
+}
